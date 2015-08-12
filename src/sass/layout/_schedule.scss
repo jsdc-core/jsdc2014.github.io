@@ -20,7 +20,7 @@ header.schedule-header {
 }
 
 .schedule {
-  background-color: #B6C865;
+  background-color: #1E97AF;
   padding-bottom: 30px;
 }
 
@@ -34,7 +34,7 @@ header.schedule-header {
 .day-tab {
   position: absolute;
   top: 0;
-  background-color: #758240;
+  background-color: #0F6A7C;
   width: 100%;
   padding: 0 20px;
   @include box-shadow(0 2px 5px 0 rgba(50, 50, 50, 0.75));
@@ -54,11 +54,11 @@ header.schedule-header {
       font-size: 2.5rem;
     }
     &:hover {
-      background-color: lighten(#758240, 15%);;
+      background-color: lighten(#0F6A7C, 15%);;
       // color: #000;
     }
     &.active {
-      background-color: lighten(#758240, 15%);
+      background-color: lighten(#0F6A7C, 15%);
       // color: #000;
     }
   }
