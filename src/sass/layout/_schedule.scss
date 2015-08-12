@@ -20,7 +20,7 @@ header.schedule-header {
 }
 
 .schedule {
-  background-color: $logo-black;
+  background-color: #B6C865;
   padding-bottom: 30px;
 }
 
@@ -34,10 +34,10 @@ header.schedule-header {
 .day-tab {
   position: absolute;
   top: 0;
-  background-color: $logo-red;
+  background-color: #758240;
   width: 100%;
   padding: 0 20px;
-  @include box-shadow(0 1px 2px 0 rgba(50, 50, 50, 0.75));
+  @include box-shadow(0 2px 5px 0 rgba(50, 50, 50, 0.75));
   @include susy-breakpoint($width-medium, 12) {
     padding: 0 40px;
   }
@@ -54,11 +54,11 @@ header.schedule-header {
       font-size: 2.5rem;
     }
     &:hover {
-      background-color: lighten($logo-red, 15%);;
+      background-color: lighten(#758240, 15%);;
       // color: #000;
     }
     &.active {
-      background-color: lighten($logo-red, 15%);
+      background-color: lighten(#758240, 15%);
       // color: #000;
     }
   }
@@ -80,11 +80,12 @@ header.schedule-header {
   @include flex-direction(column);
   @include flex-wrap(wrap);
   @include justify-content(center);
-  background-color: $logo-grey;
-  color: #fff;
+  background-color: #f1f1f1;
+  color: #055F70;
   min-height: 100px;
   padding: 20px 0;
   margin: 0;
+  @include box-shadow(0px 1px 2px 0px rgba(50, 50, 50, 0.75));
   @include susy-breakpoint($width-medium, 12) {
     @include flex-direction(row);
     @include justify-content(space-around);
@@ -93,11 +94,12 @@ header.schedule-header {
   &.hour-div {
     @include justify-content(flex-end);
     background-color: transparent;
-    color: $logo-grey;
+    color: #fff;
     text-align: center;
     text-transform: uppercase;
     padding: 10px 0;
     margin: 5px 0;
+    @include box-shadow(none);
 
     @include susy-breakpoint($width-medium, 12) {
       @include align-items(flex-end);
@@ -126,7 +128,7 @@ header.schedule-header {
 
       &.divider {
         width: 1px;
-        background-color: #fff;
+        background-color: #055F70;
       }
     }
   }
@@ -152,7 +154,7 @@ header.schedule-header {
       height: 7em;
       overflow: hidden;
       border-radius: 50%;
-      border: 0.5em solid $logo-red;
+      border: 0.5em solid #1E97AF;
 
       img {
         width: 100%;
