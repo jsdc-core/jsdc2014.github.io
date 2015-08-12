@@ -187,7 +187,7 @@
         text-align: center;
         padding: 10px;
         &:hover {
-          background-color: darken(#f0f0f0, 15%);
+          background-color: darken($logo-yellow, 15%);
         }
       }
     }
