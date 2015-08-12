@@ -1,24 +1,25 @@
-header.common
-  button.navbar-btn
-    span.icon-line
-    span.icon-line
-    span.icon-line
-  a.logo(href="/en")
-    img(src="/images/logo.png", alt="JSDC 2015", title="JSDC 2015")
-  nav#navbar
-    ul.nav-menu
-      //- li
-        a(href="/en") 2015
+mixin header(location)
+  header.common(class=location + '-header')
+    button.navbar-btn
+      span.icon-line
+      span.icon-line
+      span.icon-line
+    a.logo(href="/en")
+      img(src="/images/logo.png", alt="JSDC 2015", title="JSDC 2015")
+    nav#navbar
+      ul.nav-menu
+        //- li
+          a(href="/en") 2015
+        li
+          a(href="/en/schedule.html") Schedule
+        //- li
+          a(href="") Speakers
+        //- li
+          a(href="") Sponsors
+        //- li
+          a(href="/en/staff.html") About us
+        li
+          a(href="http://blog.jsdc.tw/") Blog
+    ul.languages
       li
-        a(href="") Schedule
-      li
-        a(href="") Speakers
-      li
-        a(href="") Sponsors
-      li
-        a(href="") About us
-      li
-        a(href="") Blog
-  ul.languages
-    li
-      a(href="/zh_tw") 中文
+        a(href="/zh_tw/" + location + '.html') 中文

@@ -1,6 +1,69 @@
 .schedule
   .schedules-list
-    .list-one
-      .list-item.hour-div
-      ul.list-item
-    .list-two
+    ul.day-tab
+      li.first.active(data-target="day-one") Day 1 (10/03)
+      li.second(data-target="day-two") Day 2 (10/04)
+    .list.day-one.active
+      ul.list-item.room-nav
+        li.room-0 國際會議廳
+        li.divider
+        li.room-1 第一會議廳
+      each row in zh_tw.dayone
+        .list-item.hour-div.mobile
+          h1=row.time
+        ul.list-item
+          //- li.time= row.time
+          each agenda, index in row.agendas
+            - var single = false
+            if row.agendas.length === 1
+              - single = true
+            else
+              - single = false
+            
+            li(class="room-" + index + " " + (single ? 'single' : ''))
+              if agenda.image
+                .avatar
+                  //- img(src=agenda.image, alt=agenda.speaker)
+                  img(data-layzr=agenda.image, alt=agenda.speaker)
+                .info
+                  .topic= agenda.topic
+                  .name= agenda.speaker ? 'by ' + agenda.speaker : ""
+                  if !single && (index === 0)
+                    .room-name 國際會議廳
+                  else if !single && (index === 1)
+                    .room-name 第一會議廳
+              else
+                .info
+                  .no-topic= agenda.topic
+    .list.day-two
+      ul.list-item.room-nav
+        li.room-0 國際會議廳
+        li.divider
+        li.room-1 第一會議廳
+      each row in zh_tw.daytwo
+        .list-item.hour-div.mobile
+          h1=row.time
+        ul.list-item
+          //- li.time= row.time
+          each agenda, index in row.agendas
+            - var single = false
+            if row.agendas.length === 1
+              - single = true
+            else
+              - single = false
+            
+            li(class="room-" + index + " " + (single ? 'single' : ''))
+              if agenda.image
+                .avatar
+                  //- img(src=agenda.image, alt=agenda.speaker)
+                  img(data-layzr=agenda.image, alt=agenda.speaker)
+                .info
+                  .topic= agenda.topic
+                  .name= agenda.speaker ? 'by ' + agenda.speaker : ""
+                  if !single && (index === 0)
+                    .room-name 國際會議廳
+                  else if !single && (index === 1)
+                    .room-name 第一會議廳
+              else
+                .info
+                  .no-topic= agenda.topic

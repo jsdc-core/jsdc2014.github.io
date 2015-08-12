@@ -19,5 +19,8 @@ html(lang="en")
     meta(property="og:site_name", content="JSDC 2015")
   body
     include _header.jade
-    section.banner
+    +header('staff')
+    section.team-page-image
+      h1 Team
+    section
     script(src="../scripts/staff.js")

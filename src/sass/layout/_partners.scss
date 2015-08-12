@@ -1,0 +1,8 @@
+section.partners {
+  min-height: 250px;
+  .container-fluid {
+    @include display-flex;
+    @include flex-wrap(wrap);
+    @include justify-content(center);
+  }
+}

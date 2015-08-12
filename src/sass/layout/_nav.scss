@@ -36,7 +36,7 @@
     @include transform(translateX(0));
     // +susy-breakpoint($width-small, 12)
     //   +transform(translateY(0))
- 
+
   }
   //   position: absolute
   //   background: transparent
@@ -159,22 +159,23 @@
 //     +transform(translateY(90%))
 
 #navbar {
-  height: 50px;
   .nav-menu {
-    @include align-items(center);
+    // @include align-items(center);
     height: 100%;
     padding: 0;
     margin: 0;
     display: none;
     @include susy-breakpoint($width-small, 12) {
-      @include display-flex;
+      // @include display-flex;
+      display: block;
+      height: 100%;
     }
 
-    .active {
+    &.active {
       display: block;
     }
     li {
-      width: 45vw;
+      width: 49vw;
       display: inline-block;
       @include susy-breakpoint($width-small, 12) {
         width: auto;
@@ -183,7 +184,11 @@
 
       a {
         display: block;
+        text-align: center;
         padding: 10px;
+        &:hover {
+          background-color: darken(#f0f0f0, 15%);
+        }
       }
     }
   }

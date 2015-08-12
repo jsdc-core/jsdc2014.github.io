@@ -1,7 +1,10 @@
 footer {
-  background-color: black;
+  background-color: $logo-black;
   color: white;
   padding-top: 1.2em;
   padding-bottom: 1.2em;
   text-align: center;
+  &.common {
+    height: 15vh;
+  }
 }

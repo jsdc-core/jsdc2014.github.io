@@ -131,6 +131,7 @@ gulp.task('browser-sync',['build'], function() {
       baseDir: './build'
     },
     port: 8080,
+    open: false
   });
 });
 

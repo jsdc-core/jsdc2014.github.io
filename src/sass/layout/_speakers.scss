@@ -1,5 +1,24 @@
-.speakers {
+section.speakers {
   padding-bottom: 50px;
+
+  & > .links {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+    & > a {
+      background-color: $logo-yellow;
+      color: #fff;
+      display: inline-block;
+      padding: 10px 30px;
+      border-radius: 100px;
+
+      &:hover {
+        text-decoration: none;
+        background-color: lighten($logo-yellow, 15%);;
+      }
+    }
+  }
+
   .container-fluid {
     @include display-flex;
     @include flex-wrap(wrap);

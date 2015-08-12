@@ -19,5 +19,11 @@ head
   meta(property="og:site_name", content="JSDC 2015")
 body
   include _header.jade
-  section.banner
-  script(src="scripts/schedule.js")
+  +header('schedule')
+  section.schedule-page-image
+    h1 Schedule
+  include _schedule.jade
+  include _footer.jade
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/layzr.js/1.4.3/layzr.min.js")
+  script(src="../scripts/schedule.js")

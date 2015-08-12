@@ -341,6 +341,7 @@ $(document).ready(function() {
 
   initScrollEvent($('.nav-news'), $('section.news'));
   initScrollEvent($('.nav-speakers'), $('section.speakers'));
+  initScrollEvent($('.nav-partners'), $('section.partners'));
   initScrollEvent($('.nav-staff'), $('section.staff'));
   initScrollEvent($('.nav-location'), $('section.location'));
 
@@ -349,4 +350,6 @@ $(document).ready(function() {
     mainAudio: '/music/elevator.mp3',
     endAudio: '/music/ding.mp3'
   });
+
+  var layzr = new Layzr();
 });

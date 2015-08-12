@@ -3,12 +3,14 @@ section {
   &.news,
   &.staff,
   &.location,
+  &.partners,
   &.speakers {
     .title {
       font-size: 1em;
       text-align: center;
+      text-transform: uppercase;
       @include susy-breakpoint($width-small, 12) {
-        font-size: 1.5em;
+        font-size: 2rem;
       }
     }
   }
@@ -154,6 +156,44 @@ section {
   }
 }
 
+.activity {
+  & > a {
+    text-decoration: none;
+    color: #f1f1f1;
+    border: none;
+    font-family: $font1;
+    font-size: 1.2em;
+    padding: 10px 30px;
+    margin: 10px 10px;
+    border-radius: 100px;
+    display: inline-block;
+    &.agenda {
+      background-color: $logo-grey;
+      &:hover {
+        background-color: lighten($logo-grey, 15%);
+      }
+    }
+    &.speaker {
+      background-color: $logo-blue;
+      &:hover {
+        background-color: lighten($logo-blue, 15%);
+      }
+    }
+    &.sponsor {
+      background-color: $logo-red;
+      &:hover {
+        background-color: lighten($logo-red, 15%);
+      }
+    }
+    &.contact {
+      background-color: $logo-green;
+      &:hover {
+        background-color: lighten($logo-green, 15%);
+      }
+    }
+  }
+}
+
 a.reserve {
   text-decoration: none;
   background-color: $logo-green;
@@ -170,32 +210,32 @@ a.reserve {
   }
 }
 
-a.typeform-share {
-  text-decoration: none;
-  color: #f1f1f1;
-  border: none;
-  font-family: $font1;
-  font-size: 1.5em;
-  padding: 10px 30px;
-  margin: 10px 10px;
-  border-radius: 100px;
-  display: inline-block;
-  &.speaker {
-    background-color: $logo-blue;
-    &:hover {
-      background-color: lighten($logo-blue, 15%);
-    }
-  }
-  &.sponsor {
-    background-color: $logo-red;
-    &:hover {
-      background-color: lighten($logo-red, 15%);
-    }
-  }
-  &.contact {
-    background-color: $logo-green;
-    &:hover {
-      background-color: lighten($logo-green, 15%);
-    }
-  }
-}
+// a.typeform-share {
+//   text-decoration: none;
+//   color: #f1f1f1;
+//   border: none;
+//   font-family: $font1;
+//   font-size: 1.5em;
+//   padding: 10px 30px;
+//   margin: 10px 10px;
+//   border-radius: 100px;
+//   display: inline-block;
+//   &.speaker {
+//     background-color: $logo-blue;
+//     &:hover {
+//       background-color: lighten($logo-blue, 15%);
+//     }
+//   }
+//   &.sponsor {
+//     background-color: $logo-red;
+//     &:hover {
+//       background-color: lighten($logo-red, 15%);
+//     }
+//   }
+//   &.contact {
+//     background-color: $logo-green;
+//     &:hover {
+//       background-color: lighten($logo-green, 15%);
+//     }
+//   }
+// }

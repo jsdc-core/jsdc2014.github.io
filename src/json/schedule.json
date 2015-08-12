@@ -1,1 +1,494 @@
-{}
+{
+  "en": {
+    "dayone": [{
+      "time": "09:00",
+      "agendas": [{
+        "speaker": "Josh Koo",
+        "image": "../images/JoshKoo.jpeg",
+        "topic": "Tooling with Three.js"
+      }]
+    }, {
+      "time": "09:40",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "DESSERT TIME"
+      }]
+    }, {
+      "time": "10:00",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "TBD"
+      }]
+    }, {
+      "time": "10:40",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "BREAK TIME"
+      }]
+    }, {
+      "time": "11:00",
+      "agendas": [{
+        "speaker": "Kuro Hsu",
+        "image": "../images/kuro-hsu.jpg",
+        "topic": "Turf.js 地圖資料分析與視覺化"
+      }, {
+        "speaker": "Cheton Wu",
+        "image": "../images/ChetonWu.jpg",
+        "topic": "用JavaScript實現微電腦自動控制不是夢！"
+      }]
+    }, {
+      "time": "11:40",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "LUNCH"
+      }]
+    }, {
+      "time": "12:40",
+      "agendas": [{
+        "speaker": "Matt",
+        "image": "../images/Matt.png",
+        "topic": "Building Single-Page Apps with Aurelia"
+      }]
+    }, {
+      "time": "13:20",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "BREAK TIME"
+      }]
+    }, {
+      "time": "13:30",
+      "agendas": [{
+        "speaker": "Will 保哥",
+        "image": "../images/Will.jpg",
+        "topic": "使用 Visual Studio Code 建構 JavaScript 應用程式"
+      }, {
+        "speaker": "Casear Chu",
+        "image": "../images/CasearChu.jpg",
+        "topic": "技術演進的大亂鬥"
+      }]
+    }, {
+      "time": "14:10",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "BREAK TIME"
+      }]
+    }, {
+      "time": "14:30",
+      "agendas": [{
+        "speaker": "othree",
+        "image": "../images/othree.jpg",
+        "topic": "Transducer"
+      }, {
+        "speaker": "Sean Lee",
+        "image": "../images/SeanLee.jpg",
+        "topic": "unidisk - Architecture of Web Storage filesystem"
+      }]
+    }, {
+      "time": "15:10",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "TEA TIME"
+      }]
+    }, {
+      "time": "15:30",
+      "agendas": [{
+        "speaker": "謝宗穎",
+        "image": "../images/謝宗穎.jpeg",
+        "topic": "TDD 的開發哲學，以 nodejs 為例"
+      }, {
+        "speaker": "王唯達",
+        "image": "../images/王唯達.jpg",
+        "topic": "jQuery.component,一個javascript MVC"
+      }]
+    }, {
+      "time": "16:10",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "BREAK TIME"
+      }]
+    }, {
+      "time": "16:30",
+      "agendas": [{
+        "speaker": "Paul Li",
+        "image": "../images/PaulLi.png",
+        "topic": "Web Components & the next generation ADs"
+      }, {
+        "speaker": "Marty",
+        "image": "../images/no-avatar.jpg",
+        "topic": "Build Anything with JavaScript"
+      }]
+    }, {
+      "time": "17:10",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "END"
+      }]
+    }],
+    "daytwo": [{
+      "time": "09:00",
+      "agendas": [{
+        "speaker": "Hedger Wang",
+        "image": "../images/HedgerWang.jpeg",
+        "topic": "React Native與Mobile App開發模式"
+      }]
+    }, {
+      "time": "09:40",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "DESSERT TIME"
+      }]
+    }, {
+      "time": "10:00",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "TBD"
+      }]
+    }, {
+      "time": "10:40",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "BREAK TIME"
+      }]
+    }, {
+      "time": "11:00",
+      "agendas": [{
+        "speaker": "Sam Lee",
+        "image": "../images/SamLee.jpg",
+        "topic": "React Native 實戰!  融入現有 iOS App"
+      }, {
+        "speaker": "pH200",
+        "image": "https://avatars1.githubusercontent.com/u/1430310?v=3&s=460",
+        "topic": "Exploring Functional UIs with Cycle"
+      }]
+    }, {
+      "time": "11:40",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "LUNCH"
+      }]
+    }, {
+      "time": "12:40",
+      "agendas": [{
+        "speaker": "Janathon",
+        "image": "../images/Janathon.jpeg",
+        "topic": "Workshop on Control Flow w/ ES2015 and beyond."
+      }]
+    }, {
+      "time": "14:10",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "BREAK TIME"
+      }]
+    }, {
+      "time": "14:30",
+      "agendas": [{
+        "speaker": "Mark",
+        "image": "../images/MarkSu.jpg",
+        "topic": "Building Hybrid Mobile Apps with Ionic Framework and AngularJS"
+      }, {
+        "speaker": "",
+        "image": "",
+        "topic": "TBD"
+      }]
+    }, {
+      "time": "15:10",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "TEA TIME"
+      }]
+    }, {
+      "time": "15:30",
+      "agendas": [{
+        "speaker": "Xp Steven",
+        "image": "../images/XpSteven.jpg",
+        "topic": "React Test and Material Design Lite + React？"
+      }, {
+        "speaker": "",
+        "image": "",
+        "topic": "TBD"
+      }]
+    }, {
+      "time": "16:10",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "BREAK TIME"
+      }]
+    }, {
+      "time": "16:30",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "Lighting Talk"
+      }]
+    }, {
+      "time": "17:10",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "END"
+      }]
+    }]
+  },
+  "zh_tw": {
+    "dayone": [{
+      "time": "09:00",
+      "agendas": [{
+        "speaker": "Josh Koo",
+        "image": "../images/JoshKoo.jpeg",
+        "topic": "Tooling with Three.js"
+      }]
+    }, {
+      "time": "09:40",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "早上點心"
+      }]
+    }, {
+      "time": "10:00",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "TBD"
+      }]
+    }, {
+      "time": "10:40",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "休息"
+      }]
+    }, {
+      "time": "11:00",
+      "agendas": [{
+        "speaker": "Kuro Hsu",
+        "image": "../images/kuro-hsu.jpg",
+        "topic": "Turf.js 地圖資料分析與視覺化"
+      }, {
+        "speaker": "Cheton Wu",
+        "image": "../images/ChetonWu.jpg",
+        "topic": "用JavaScript實現微電腦自動控制不是夢！"
+      }]
+    }, {
+      "time": "11:40",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "午餐"
+      }]
+    }, {
+      "time": "12:40",
+      "agendas": [{
+        "speaker": "Matt",
+        "image": "../images/Matt.png",
+        "topic": "Building Single-Page Apps with Aurelia"
+      }]
+    }, {
+      "time": "13:20",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "休息"
+      }]
+    }, {
+      "time": "13:30",
+      "agendas": [{
+        "speaker": "Will 保哥",
+        "image": "../images/Will.jpg",
+        "topic": "使用 Visual Studio Code 建構 JavaScript 應用程式"
+      }, {
+        "speaker": "Casear Chu",
+        "image": "../images/CasearChu.jpg",
+        "topic": "技術演進的大亂鬥"
+      }]
+    }, {
+      "time": "14:10",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "休息"
+      }]
+    }, {
+      "time": "14:30",
+      "agendas": [{
+        "speaker": "othree",
+        "image": "../images/othree.jpg",
+        "topic": "Transducer"
+      }, {
+        "speaker": "Sean Lee",
+        "image": "../images/SeanLee.jpg",
+        "topic": "unidisk - Architecture of Web Storage filesystem"
+      }]
+    }, {
+      "time": "15:10",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "下午茶"
+      }]
+    }, {
+      "time": "15:30",
+      "agendas": [{
+        "speaker": "謝宗穎",
+        "image": "../images/謝宗穎.jpeg",
+        "topic": "TDD 的開發哲學，以 nodejs 為例"
+      }, {
+        "speaker": "王唯達",
+        "image": "../images/王唯達.jpg",
+        "topic": "jQuery.component,一個javascript MVC"
+      }]
+    }, {
+      "time": "16:10",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "休息"
+      }]
+    }, {
+      "time": "16:30",
+      "agendas": [{
+        "speaker": "Paul Li",
+        "image": "../images/PaulLi.png",
+        "topic": "Web Components & the next generation ADs"
+      }, {
+        "speaker": "許益祥",
+        "image": "../images/no-avatar.jpg",
+        "topic": "Build Anything with JavaScript"
+      }]
+    }, {
+      "time": "17:10",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "收工啦!"
+      }]
+    }],
+    "daytwo": [{
+      "time": "09:00",
+      "agendas": [{
+        "speaker": "Hedger Wang",
+        "image": "../images/HedgerWang.jpeg",
+        "topic": "React Native與Mobile App開發模式"
+      }]
+    }, {
+      "time": "09:40",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "早上點心"
+      }]
+    }, {
+      "time": "10:00",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "TBD"
+      }]
+    }, {
+      "time": "10:40",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "休息"
+      }]
+    }, {
+      "time": "11:00",
+      "agendas": [{
+        "speaker": "Sam Lee",
+        "image": "../images/SamLee.jpg",
+        "topic": "React Native 實戰!  融入現有 iOS App"
+      }, {
+        "speaker": "pH200",
+        "image": "https://avatars1.githubusercontent.com/u/1430310?v=3&s=460",
+        "topic": "Exploring Functional UIs with Cycle"
+      }]
+    }, {
+      "time": "11:40",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "午餐"
+      }]
+    }, {
+      "time": "12:40",
+      "agendas": [{
+        "speaker": "Janathon",
+        "image": "../images/Janathon.jpeg",
+        "topic": "Workshop on Control Flow w/ ES2015 and beyond."
+      }]
+    }, {
+      "time": "14:10",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "休息"
+      }]
+    }, {
+      "time": "14:30",
+      "agendas": [{
+        "speaker": "Mark",
+        "image": "../images/MarkSu.jpg",
+        "topic": "Building Hybrid Mobile Apps with Ionic Framework and AngularJS"
+      }, {
+        "speaker": "",
+        "image": "",
+        "topic": "TBD"
+      }]
+    }, {
+      "time": "15:10",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "下午茶"
+      }]
+    }, {
+      "time": "15:30",
+      "agendas": [{
+        "speaker": "Xp Steven",
+        "image": "../images/XpSteven.jpg",
+        "topic": "React Test and Material Design Lite + React？"
+      }, {
+        "speaker": "",
+        "image": "",
+        "topic": "TBD"
+      }]
+    }, {
+      "time": "16:10",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "休息"
+      }]
+    }, {
+      "time": "16:30",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "閃電秀"
+      }]
+    }, {
+      "time": "17:10",
+      "agendas": [{
+        "speaker": "",
+        "image": "",
+        "topic": "收工啦!"
+      }]
+    }]
+  }
+}

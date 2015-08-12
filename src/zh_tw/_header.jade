@@ -1,14 +1,25 @@
-nav#navbar
-  ul.nav-menu
-    li
-      a(href="/zh_tw") 2015
-    li
-      a(style="text-decoration: line-through") 議程
-    li
-      a(style="text-decoration: line-through") 講者
-    li
-      a(style="text-decoration: line-through") 贊助
-    li
-      a(style="text-decoration: line-through") 關於我們
-    li
-      a(style="text-decoration: line-through") Blog
+mixin header(location)
+  header.common
+    button.navbar-btn
+      span.icon-line
+      span.icon-line
+      span.icon-line
+    a.logo(href="/zh_tw")
+      img(src="/images/logo.png", alt="JSDC 2015", title="JSDC 2015")
+    nav#navbar
+      ul.nav-menu
+        //- li
+          a(href="/zh_tw") 2015
+        li
+          a(href="/zh_tw/schedule.html") 議程
+        //- li
+          a(href="") 講者
+        //- li
+          a(href="") 贊助
+        //- li
+          a(href="/zh_tw/staff.html") 關於我們
+        li
+          a(href="http://blog.jsdc.tw/") 部落格
+    ul.languages
+      li
+        a(href="/en/" + location + '.html') English
