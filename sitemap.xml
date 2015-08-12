@@ -13,8 +13,20 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://2015.jsdc.tw/en/schedule.html</loc>
+    <lastmod>2015-08-05T03:27:21.927Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://2015.jsdc.tw/zh_tw</loc>
     <lastmod>2015-04-21T00:54:25.470Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://2015.jsdc.tw/zh_tw/schedule.html</loc>
+    <lastmod>2015-08-05T03:27:21.927Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
