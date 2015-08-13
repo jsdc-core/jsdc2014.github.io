@@ -32,6 +32,8 @@
                     .room-name 國際會議廳
                   else if !single && (index === 1)
                     .room-name 第一會議廳
+                  else if single && agenda.speaker
+                    .roon-name 全場聯播
               else
                 .info
                   .no-topic= agenda.topic
@@ -64,6 +66,8 @@
                     .room-name 國際會議廳
                   else if !single && (index === 1)
                     .room-name 第一會議廳
+                  else if single && agenda.speaker
+                    .roon-name 全場聯播
               else
                 .info
                   .no-topic= agenda.topic
