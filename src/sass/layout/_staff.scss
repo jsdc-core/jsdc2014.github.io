@@ -33,10 +33,13 @@ section.staff {
     // height: 50px
     // +susy-breakpoint($width-small, 12)
     //   height: 90px
+    width: 100%;
+    height: 100%;
     img {
       width: 100%;
       height: 100%;
       object-fit: cover;
+      object-position: top;
     }
   }
   .introduction {
