@@ -1317,10 +1317,15 @@ section.staff .person {
 section.staff .person:hover {
   color: #404040;
 }
+section.staff .avatar {
+  width: 100%;
+  height: 100%;
+}
 section.staff .avatar img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top;
 }
 section.staff .introduction {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
