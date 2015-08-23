@@ -33,6 +33,24 @@
     "projectGithub": "https://github.com/facebook/react-native"
   }],
   "news": [{
+    "title": "JSDC 2015 研討會，工讀生招募中",
+    "author": "JSDC team",
+    "createdAt": "23 Aug 2015",
+    "description": "JSDC 研討會招募短期工讀生，歡迎有興趣協助活動的朋友們一起加入，投入當天研討會周邊項目事務投入。",
+    "link": "http://blog.jsdc.tw/2015/08/23/jsdc-worker/"
+  }, {
+    "title": "大會議程公布 - JSDC 2015",
+    "author": "JSDC team",
+    "createdAt": "12 Aug 2015",
+    "description": "JSDC 2015 本次邀請到國內外各方好手齊聚一堂，今年度主題為『整合』，邀請了圖表必知套件 Three.js - Josh ，對於 ES7 下個世代的 Framework Aurelia 開發者 Matt, 以及 React Native 開發者 Hedger。",
+    "link": "http://blog.jsdc.tw/2015/08/12/jsdc-schedule-annouce/"
+  }, {
+    "title": "JSDC 2015 學生獎勵計畫得獎名單",
+    "author": "JSDC team",
+    "createdAt": "08 Aug 2015",
+    "description": "今年的JSDC，我們希望能讓更多台灣年輕學子參與活動，特舉辦此學生獎勵計畫，提供免費票券，讓同學直接與齊聚一堂的國際大師、國內高手們直接互動交流。",
+    "link": "http://blog.jsdc.tw/2015/08/08/jsdc-student-award/"
+  }, {
     "title": "Facebook 釋出基於 Atom 的 IDE - nuclide",
     "author": "周裕波",
     "createdAt": "25 Jun 2015",
@@ -44,24 +62,6 @@
     "createdAt": "20 Jun 2015",
     "description": "前端入坑深似海，一入宅門出不來。這肯定是許多前端工程師可以體認到的共同感觸，前端真可以說是一個坑，維繫大家能夠持續學習的動機，除了熱情，應該就還是熱情吧。",
     "link": "http://blog.jsdc.tw/2015/06/20/f2e-framework-compare/"
-  }, {
-    "title": "小小感想 JS Devil Day 回顧",
-    "author": "Andrew Chen",
-    "createdAt": "10 Jun 2015",
-    "description": "JS Devil Day 是本次 JSDC 2015 所舉辦第一場對外 Meetup，也是首次透過北中南三方連線方式進行，本次以參與者角色，記錄此次活動。 ",
-    "link": "http://blog.jsdc.tw/2015/06/10/review-devil-day/"
-  }, {
-    "title": "JS Devil Day",
-    "author": "JSDC team",
-    "createdAt": "26 May 2015",
-    "description": "2014 年最火紅的前端框架可以說是 Angular ，我想這個是大家都無庸置疑的，但是它的學習曲線實在是 … 直到現在還是不太好學。 默默的繼續回去使用 backbon & jQuery 這樣簡簡單單的純樸。",
-    "link": "http://blog.jsdc.tw/2015/04/01/jsdc2015-start/"
-  }, {
-    "title": "JSDC 2015, now starting.",
-    "author": "JSDC team",
-    "createdAt": "01 Apr 2015",
-    "description": "熱愛 JavaScript 與 JSDC 研討會的朋友們大家好。我是 Simon，小弟是今年 JSDC 2015 的總召。不知道什麼時候，JSDC 這個活動已經悄悄地世代轉移了，在此對於所有 JSDC 前輩們的付出先深深一鞠躬表示感謝...",
-    "link": "http://blog.jsdc.tw/2015/04/01/jsdc2015-start/"
   }],
   "en": {
     "staff": {
