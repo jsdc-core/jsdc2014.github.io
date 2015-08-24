@@ -3,9 +3,9 @@
     "dayone": [{
       "time": "09:00",
       "agendas": [{
-        "speaker": "Josh Koo",
-        "image": "../images/JoshKoo.jpeg",
-        "topic": "Tooling with Three.js"
+        "speaker": "Hedger Wang",
+        "image": "../images/HedgerWang.jpeg",
+        "topic": "React Native與Mobile App開發模式"
       }]
     }, {
       "time": "09:40",
@@ -136,9 +136,9 @@
     "daytwo": [{
       "time": "09:00",
       "agendas": [{
-        "speaker": "Hedger Wang",
-        "image": "../images/HedgerWang.jpeg",
-        "topic": "React Native與Mobile App開發模式"
+        "speaker": "Josh Koo",
+        "image": "../images/JoshKoo.jpeg",
+        "topic": "Tooling with Three.js"
       }]
     }, {
       "time": "09:40",
@@ -249,9 +249,9 @@
     "dayone": [{
       "time": "09:00",
       "agendas": [{
-        "speaker": "Josh Koo",
-        "image": "../images/JoshKoo.jpeg",
-        "topic": "Tooling with Three.js"
+        "speaker": "Hedger Wang",
+        "image": "../images/HedgerWang.jpeg",
+        "topic": "React Native與Mobile App開發模式"
       }]
     }, {
       "time": "09:40",
@@ -382,9 +382,9 @@
     "daytwo": [{
       "time": "09:00",
       "agendas": [{
-        "speaker": "Hedger Wang",
-        "image": "../images/HedgerWang.jpeg",
-        "topic": "React Native與Mobile App開發模式"
+        "speaker": "Josh Koo",
+        "image": "../images/JoshKoo.jpeg",
+        "topic": "Tooling with Three.js"
       }]
     }, {
       "time": "09:40",
