@@ -1281,6 +1281,22 @@ section.partners .container-fluid {
   -webkit-justify-content: center;
   justify-content: center;
 }
+section.partners .partner {
+  width: 80%;
+}
+@media (min-width: 35em) {
+  section.partners .partner {
+    width: 50%;
+  }
+}
+@media (min-width: 48em) {
+  section.partners .partner {
+    width: 30%;
+  }
+}
+section.partners .partner > img {
+  width: 100%;
+}
 
 section.staff {
   background-color: #3096b2;
