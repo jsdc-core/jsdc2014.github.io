@@ -5,4 +5,17 @@ section.partners {
     @include flex-wrap(wrap);
     @include justify-content(center);
   }
+
+  .partner {
+    width: 80%;
+    @include susy-breakpoint($width-ex-small, 12) {
+      width: 50%;
+    }
+    @include susy-breakpoint($width-small, 12) {
+      width: 30%;
+    }
+    & > img {
+      width: 100%;
+    }
+  }
 }
