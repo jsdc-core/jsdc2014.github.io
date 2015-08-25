@@ -163,6 +163,17 @@
   text-align: right;
 }
 
+section.news > .title, section.speakers > .title, section.partners > .title, section.staff > .title, section.location > .title, section.campaign > .title {
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media (min-width: 48em) {
+  section.news > .title, section.speakers > .title, section.partners > .title, section.staff > .title, section.location > .title, section.campaign > .title {
+    font-size: 2rem;
+  }
+}
+
 /* Base */
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /*
@@ -910,16 +921,6 @@ footer.common {
 section {
   overflow: hidden;
 }
-section.news .title, section.staff .title, section.location .title, section.partners .title, section.speakers .title {
-  font-size: 1em;
-  text-align: center;
-  text-transform: uppercase;
-}
-@media (min-width: 48em) {
-  section.news .title, section.staff .title, section.location .title, section.partners .title, section.speakers .title {
-    font-size: 2rem;
-  }
-}
 
 #elevator-btn {
   background-color: transparent;
@@ -1302,7 +1303,7 @@ section.staff {
   background-color: #3096b2;
   overflow: hidden;
 }
-section.staff .title {
+section.staff > .title {
   color: white;
 }
 section.staff .container-fluid {
@@ -1629,6 +1630,65 @@ header.schedule-header {
 }
 .list-item .time {
   width: 10%;
+}
+
+section.campaign {
+  background-color: #66676a;
+}
+section.campaign > .title {
+  color: #fff;
+}
+section.campaign .container {
+  margin-bottom: 2em;
+}
+section.campaign .reward {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media (min-width: 62em) {
+  section.campaign .reward {
+    display: -webkit-flex;
+    display: flex;
+  }
+}
+section.campaign .image {
+  -webkit-flex: 1 1 0;
+  flex: 1 1 0;
+  overflow: hidden;
+}
+section.campaign .image img {
+  width: 100%;
+}
+section.campaign .description {
+  -webkit-flex: 2 1 0;
+  flex: 2 1 0;
+  background-color: #fff;
+  padding: 15px 30px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+section.campaign .description > h2 {
+  font-weight: bold;
+}
+section.campaign .link {
+  display: block;
+  width: 100%;
+  background-color: #b9cc54;
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+section.campaign .link:hover {
+  background-color: #d1de8f;
 }
 
 /* Modules */
