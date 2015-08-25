@@ -1,6 +1,7 @@
 section.news {
   background-color: $logo-red;
   & > .title {
+    @extend %section-title;
     color: white;
   }
   .news-slick {

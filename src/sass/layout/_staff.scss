@@ -1,7 +1,8 @@
 section.staff {
   background-color: $logo-blue;
   overflow: hidden;
-  .title {
+  & > .title {
+    @extend %section-title;
     color: white;
   }
   .container-fluid {

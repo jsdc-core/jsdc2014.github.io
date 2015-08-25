@@ -1,6 +1,10 @@
 section.speakers {
   padding-bottom: 50px;
 
+  & > .title {
+    @extend %section-title;
+  }
+
   & > .links {
     font-size: 2rem;
     text-align: center;

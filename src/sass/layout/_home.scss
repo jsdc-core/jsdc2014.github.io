@@ -1,19 +1,5 @@
 section {
   overflow: hidden;
-  &.news,
-  &.staff,
-  &.location,
-  &.partners,
-  &.speakers {
-    .title {
-      font-size: 1em;
-      text-align: center;
-      text-transform: uppercase;
-      @include susy-breakpoint($width-small, 12) {
-        font-size: 2rem;
-      }
-    }
-  }
 }
 
 #elevator-btn {

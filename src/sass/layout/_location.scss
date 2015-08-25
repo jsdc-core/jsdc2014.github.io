@@ -1,5 +1,8 @@
 section.location {
   background-color: $logo-green;
+  & > .title {
+    @extend %section-title;
+  }
   & > .title, .address {
     color: white;
   }
