@@ -67,11 +67,11 @@
     "staff": {
       "members": [{
         "name": "Simon Sn",
-        "img": "https://scontent-nrt1-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/10805728_1038360966190069_6017786568153332670_n.jpg?oh=3ef4a67debf90f33142d79ded1db2b0d&oe=567E3A3D",
+        "img": "../images/convener.jpg",
         "position": "Convener"
       }, {
         "name": "Caesar Chi",
-        "img": "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xaf1/t31.0-8/291025_10150405198524838_7058186_o.jpg",
+        "img": "../images/consultant.jpg",
         "position": "Consultant"
       }, {
         "name": "Chung Heng Chang",
@@ -79,15 +79,15 @@
         "position": "Record"
       }, {
         "name": "Webber",
-        "img": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/p320x320/10413434_877763895576407_9099161578711107770_n.jpg?oh=fb2844ea40c95db3fd6e76da3ea372c9&oe=55E35212&__gda__=1440642681_728b78c2703339b1c689c3b60c866a7d",
+        "img": "../images/service.jpg",
         "position": "Service"
       }, {
         "name": "Jr Hau Ju",
-        "img": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/p320x320/10929190_10200245821105569_1100529549169868284_n.jpg?oh=875d062709a967da29009da4f22f8a0b&oe=55D96538&__gda__=1440717993_e36c118013c71403e5eb2123152cfb12",
+        "img": "../images/finance.jpg",
         "position": "Finance"
       }, {
         "name": "Chan-Cheng George Shih",
-        "img": "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11350566_10206271603805285_7968229074284493308_n.jpg?oh=8a3c8849c9b79d36fafb7f5aeab03fad&oe=564AC495&__gda__=1446365418_ae6fa6c89a2a917befa3e5b1113d992f",
+        "img": "../images/pr.jpg",
         "position": "PR"
       }, {
         "name": "Chiahao Lin",
@@ -104,11 +104,11 @@
     "staff": {
       "members": [{
         "name": "Simon Sun",
-        "img": "https://scontent-nrt1-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/10805728_1038360966190069_6017786568153332670_n.jpg?oh=3ef4a67debf90f33142d79ded1db2b0d&oe=567E3A3D",
+        "img": "../images/convener.jpg",
         "position": "總召"
       }, {
         "name": "Caesar Chi",
-        "img": "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xaf1/t31.0-8/291025_10150405198524838_7058186_o.jpg",
+        "img": "../images/consultant.jpg",
         "position": "顧問"
       }, {
         "name": "Chung Heng Chang",
@@ -116,15 +116,15 @@
         "position": "記錄"
       }, {
         "name": "Webber",
-        "img": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/p320x320/10413434_877763895576407_9099161578711107770_n.jpg?oh=fb2844ea40c95db3fd6e76da3ea372c9&oe=55E35212&__gda__=1440642681_728b78c2703339b1c689c3b60c866a7d",
+        "img": "../images/service.jpg",
         "position": "場務"
       }, {
         "name": "Jr Hau Ju",
-        "img": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/p320x320/10929190_10200245821105569_1100529549169868284_n.jpg?oh=875d062709a967da29009da4f22f8a0b&oe=55D96538&__gda__=1440717993_e36c118013c71403e5eb2123152cfb12",
+        "img": "../images/finance.jpg",
         "position": "財務"
       }, {
         "name": "Chan-Cheng George Shih",
-        "img": "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11350566_10206271603805285_7968229074284493308_n.jpg?oh=8a3c8849c9b79d36fafb7f5aeab03fad&oe=564AC495&__gda__=1446365418_ae6fa6c89a2a917befa3e5b1113d992f",
+        "img": "../images/pr.jpg",
         "position": "公關"
       }, {
         "name": "Chiahao Lin",
