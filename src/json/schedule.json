@@ -17,9 +17,13 @@
     }, {
       "time": "10:00",
       "agendas": [{
-        "speaker": "",
-        "image": "",
-        "topic": "TBD"
+        "speaker": "George Duan",
+        "image": "../images/GeorgeDuan.jpg",
+        "topic": "用LINE Platform打造有趣的Javascript應用"
+      }, {
+        "speaker": "Yuren Ju",
+        "image": "../images/no-avatar.jpg",
+        "topic": "Automate Everything In JavaScript"
       }]
     }, {
       "time": "10:40",
@@ -150,9 +154,13 @@
     }, {
       "time": "10:00",
       "agendas": [{
-        "speaker": "",
-        "image": "",
-        "topic": "TBD"
+        "speaker": "WM",
+        "image": "../images/no-avatar.jpg",
+        "topic": "使用 Electron 跨平台建構 JavaScript 桌面程式"
+      }, {
+        "speaker": "Evan Tseng",
+        "image": "../images/no-avatar.jpg",
+        "topic": "Web of Things Maker - 用 JS 建立 WoT/IoT 應用"
       }]
     }, {
       "time": "10:40",
@@ -263,9 +271,13 @@
     }, {
       "time": "10:00",
       "agendas": [{
-        "speaker": "",
-        "image": "",
-        "topic": "TBD"
+        "speaker": "George Duan",
+        "image": "../images/GeorgeDuan.jpg",
+        "topic": "用LINE Platform打造有趣的Javascript應用"
+      }, {
+        "speaker": "Yuren Ju",
+        "image": "../images/no-avatar.jpg",
+        "topic": "Automate Everything In JavaScript"
       }]
     }, {
       "time": "10:40",
@@ -396,9 +408,13 @@
     }, {
       "time": "10:00",
       "agendas": [{
-        "speaker": "",
-        "image": "",
-        "topic": "TBD"
+        "speaker": "WM",
+        "image": "../images/no-avatar.jpg",
+        "topic": "使用 Electron 跨平台建構 JavaScript 桌面程式"
+      }, {
+        "speaker": "Evan Tseng",
+        "image": "../images/no-avatar.jpg",
+        "topic": "Web of Things Maker - 用 JS 建立 WoT/IoT 應用"
       }]
     }, {
       "time": "10:40",
