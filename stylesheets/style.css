@@ -1281,6 +1281,9 @@ section.partners .container-fluid {
   flex-wrap: wrap;
   -webkit-justify-content: center;
   justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding-bottom: 30px;
 }
 section.partners .partner {
   width: 80%;
