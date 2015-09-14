@@ -3,11 +3,13 @@ section.partners {
   & > .title {
     @extend %section-title;
   }
-  
+
   .container-fluid {
     @include display-flex;
     @include flex-wrap(wrap);
     @include justify-content(center);
+    @include align-items(center);
+    padding-bottom: 30px;
   }
 
   .partner {
