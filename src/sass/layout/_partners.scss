@@ -5,15 +5,22 @@ section.partners {
   }
 
   .container-fluid {
-    @include display-flex;
-    @include flex-wrap(wrap);
-    @include justify-content(center);
-    @include align-items(center);
+    // @include display-flex;
+    // @include flex-wrap(wrap);
+    // @include justify-content(center);
+    // @include align-items(center);
     padding-bottom: 30px;
   }
 
+  .helpers, .specials {
+    width: 100%;
+    text-align: center;
+  }
+
   .partner {
+    display: inline-block;
     width: 80%;
+    padding: 10px 0;
     @include susy-breakpoint($width-ex-small, 12) {
       width: 50%;
     }
