@@ -125,9 +125,9 @@
         "image": "../images/PaulLi.png",
         "topic": "Web Components & the next generation ADs"
       }, {
-        "speaker": "Marty",
-        "image": "../images/MartyHsu.jpg",
-        "topic": "Build Anything with JavaScript"
+        "speaker": "Evan Tseng",
+        "image": "../images/EvanTseng.jpeg",
+        "topic": "Web of Things Maker - Build WoT/IoT Applications with JavaScript"
       }]
     }, {
       "time": "17:10",
@@ -154,13 +154,9 @@
     }, {
       "time": "10:00",
       "agendas": [{
-        "speaker": "WM",
-        "image": "../images/no-avatar.jpg",
-        "topic": "使用 Electron 跨平台建構 JavaScript 桌面程式"
-      }, {
-        "speaker": "Evan Tseng",
-        "image": "../images/EvanTseng.jpeg",
-        "topic": "Web of Things Maker - Build WoT/IoT Applications with JavaScript"
+        "speaker": "Marty",
+        "image": "../images/MartyHsu.jpg",
+        "topic": "Build Anything with JavaScript"
       }]
     }, {
       "time": "10:40",
@@ -226,9 +222,9 @@
         "image": "../images/XpSteven.jpg",
         "topic": "React Test and Material Design Lite + React？"
       }, {
-        "speaker": "",
-        "image": "",
-        "topic": "TBD"
+        "speaker": "WM",
+        "image": "../images/WM.jpeg",
+        "topic": "使用 Electron 跨平台建構 JavaScript 桌面程式"
       }]
     }, {
       "time": "16:10",
@@ -379,9 +375,9 @@
         "image": "../images/PaulLi.png",
         "topic": "Web Components & the next generation ADs"
       }, {
-        "speaker": "許益祥",
-        "image": "../images/MartyHsu.jpg",
-        "topic": "Build Anything with JavaScript"
+        "speaker": "Evan Tseng",
+        "image": "../images/EvanTseng.jpeg",
+        "topic": "Web of Things Maker - Build WoT/IoT Applications with JavaScript"
       }]
     }, {
       "time": "17:10",
@@ -408,13 +404,9 @@
     }, {
       "time": "10:00",
       "agendas": [{
-        "speaker": "WM",
-        "image": "../images/no-avatar.jpg",
-        "topic": "使用 Electron 跨平台建構 JavaScript 桌面程式"
-      }, {
-        "speaker": "Evan Tseng",
-        "image": "../images/EvanTseng.jpeg",
-        "topic": "Web of Things Maker - Build WoT/IoT Applications with JavaScript"
+        "speaker": "許益祥",
+        "image": "../images/MartyHsu.jpg",
+        "topic": "Build Anything with JavaScript"
       }]
     }, {
       "time": "10:40",
@@ -480,9 +472,9 @@
         "image": "../images/XpSteven.jpg",
         "topic": "React Test and Material Design Lite + React？"
       }, {
-        "speaker": "",
-        "image": "",
-        "topic": "TBD"
+        "speaker": "WM",
+        "image": "../images/WM.jpeg",
+        "topic": "使用 Electron 跨平台建構 JavaScript 桌面程式"
       }]
     }, {
       "time": "16:10",

@@ -7,7 +7,7 @@
       ul.list-item.room-nav
         li.room-0 國際會議廳
         li.divider
-        li.room-1 第一會議廳
+        li.room-1 第二會議廳
       each row in zh_tw.dayone
         .list-item.hour-div.mobile
           h1=row.time
@@ -31,7 +31,7 @@
                   if !single && (index === 0)
                     .room-name 國際會議廳
                   else if !single && (index === 1)
-                    .room-name 第一會議廳
+                    .room-name 第二會議廳
                   else if single && agenda.speaker
                     .roon-name 全場聯播
               else
@@ -41,7 +41,7 @@
       ul.list-item.room-nav
         li.room-0 國際會議廳
         li.divider
-        li.room-1 第一會議廳
+        li.room-1 第二會議廳
       each row in zh_tw.daytwo
         .list-item.hour-div.mobile
           h1=row.time
@@ -65,7 +65,7 @@
                   if !single && (index === 0)
                     .room-name 國際會議廳
                   else if !single && (index === 1)
-                    .room-name 第一會議廳
+                    .room-name 第二會議廳
                   else if single && agenda.speaker
                     .roon-name 全場聯播
               else
