@@ -1275,18 +1275,16 @@ section.partners {
   min-height: 250px;
 }
 section.partners .container-fluid {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  align-items: center;
   padding-bottom: 30px;
 }
+section.partners .helpers, section.partners .specials {
+  width: 100%;
+  text-align: center;
+}
 section.partners .partner {
+  display: inline-block;
   width: 80%;
+  padding: 10px 0;
 }
 @media (min-width: 35em) {
   section.partners .partner {
