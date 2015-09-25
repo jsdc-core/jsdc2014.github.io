@@ -118,7 +118,13 @@
         "name": "Webber",
         "img": "../images/service.jpg",
         "position": "場務"
-      }, {
+      },
+      {
+        "name": "Wayne",
+        "img": "../images/service2.jpg",
+        "position": "場務"
+      },
+      {
         "name": "Jr Hau Ju",
         "img": "../images/finance.jpg",
         "position": "財務"
