@@ -352,4 +352,20 @@ $(document).ready(function() {
   });
 
   var layzr = new Layzr();
+
+  $(".js-sponsor").on("click", function(e) {
+    e.stopPropagation();
+    $(".js-sponsor").removeClass("active");
+    $(this).addClass("active");
+  })
+
+  $("body").on("click", function() {
+    $(".js-sponsor").removeClass("active");
+  })
+
+  $(".js-partner-close").on("click", function(e) {
+    e.stopPropagation();
+    $(".js-sponsor").removeClass("active");
+  });
+
 });
