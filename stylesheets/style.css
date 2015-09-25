@@ -1292,7 +1292,7 @@ section.partners .helpers, section.partners .specials, section.partners .partner
 section.partners .sponsor, section.partners .partner {
   position: relative;
   display: inline-block;
-  width: 300px;
+  width: 200px;
   padding: 10px 0;
   margin: 10px 0;
 }
@@ -1300,7 +1300,7 @@ section.partners .sponsor img, section.partners .partner img {
   width: 100%;
 }
 section.partners .sponsor.sponsor-sub, section.partners .sponsor.partner-sub, section.partners .partner.sponsor-sub, section.partners .partner.partner-sub {
-  width: 300px;
+  width: 200px;
   margin: 10px 20px;
 }
 @media (min-width: 62em) {
@@ -1316,9 +1316,9 @@ section.partners .sponsor.sponsor-sub, section.partners .sponsor.partner-sub, se
 section.partners .sponsor .info, section.partners .partner .info {
   text-align: left;
   position: absolute;
-  left: 0;
+  left: -25%;
   bottom: 110%;
-  width: 300px;
+  width: 150%;
   padding: 1em;
   border-radius: 5px;
   background-color: #efefef;
@@ -1331,12 +1331,12 @@ section.partners .sponsor .info h3, section.partners .partner .info h3 {
 }
 @media (min-width: 62em) {
   section.partners .sponsor .info, section.partners .partner .info {
-    left: -50px;
+    left: -25%;
   }
 }
 @media (min-width: 48em) {
   section.partners .sponsor .info, section.partners .partner .info {
-    left: -50px;
+    left: -25%;
   }
 }
 section.partners .sponsor .info:after, section.partners .partner .info:after {
@@ -1361,25 +1361,39 @@ section.partners .break .info {
   left: 0px;
 }
 section.partners .line {
-  width: 300px;
+  width: 250px;
 }
 section.partners .microsoft {
-  width: 300px;
+  width: 250px;
 }
 section.partners .trendmicro {
-  width: 300px;
+  width: 250px;
 }
 section.partners .partner-link {
   display: block;
-  position: absolute;
-  right: 15px;
-  top: 15px;
+  float: right;
   width: 25px;
   height: 25px;
 }
 section.partners .partner-link img {
   width: 100%;
   height: 100%;
+}
+section.partners .partner-close {
+  font-size: 20px;
+  color: #333;
+  display: block;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  float: right;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+section.partners .partner-close:hover {
+  text-decoration: none;
+  color: #111;
 }
 
 section.staff {
