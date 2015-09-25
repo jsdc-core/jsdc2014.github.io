@@ -1358,7 +1358,8 @@ section.partners .break {
   margin: 0 auto;
 }
 section.partners .break .info {
-  left: 0px;
+  width: 110%;
+  left: -5%;
 }
 section.partners .line {
   width: 250px;
