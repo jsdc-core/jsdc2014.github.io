@@ -255,17 +255,45 @@
                   color: #333; }
                   .btn p a:hover {
                     color: #CCC; }
+            body{
+              background-color: rgba(255, 215, 15, 0.8) !important;
+            }
+
+            .video{
+              position: fixed;
+              top:0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              opacity: .2;
+            }
+            video{
+              min-width: 100%;
+              min-height: 100%;
+            }
+            #logo{
+              background-color: white;
+              width: 800px;
+              padding: 25px;
+              border-radius: 65px;
+              padding: 20px;
+            }
         </style>
     </head>
 
     <body>
+        <div class="video">
+          <video id="bg-video" autoplay muted loop>
+            <source type="video/mp4" src="../../video/background.mp4">
+          </video>
+        </div>
         <!--div id="twitter" width="100%">
             <p>Loading...</p>
         </div-->
         <div id="impress">
             <div id="js" class="step" data-x="-1000" data-y="-2000" data-delay="10000">
                 <div style="width:1000px;height:100px;font-size:0.8em;text-indent:-100px">Welcome to #jsdc2015</div>
-                <img src="images/js.svg"  width="800">
+                <img id="logo" src="../images/logo.png">
             </div>
             <div id="twitter_status" class="step" data-x="0" data-y="-2000" data-delay="10000">
             <a class="twitter-timeline" href="https://twitter.com/jsdc_tw" data-widget-id="520620913809563648"></a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -273,14 +301,14 @@
             <div class="step" data-x="1000" data-y="-2000" data-delay="100000000">
             <div style="text-indent:-100px;font-size:0.5em;">Diamond Sponsorship</div>
                 <div class="carousel">
-                    <img src="../images/LINE.svg" style="max-width:300px;max-height:500px;" alt="LINE"> &nbsp;
-                    <img src="http://2014.jsdc.tw/images/sponsor/microsoft.svg" style="max-width:400px;max-height:500px;" alt="Microsoft">
+                    <a><img src="../images/LINE.svg" style="max-width:300px;max-height:500px;padding:0 20px;" alt="LINE"></a> &nbsp;
+                    <a><img src="http://2014.jsdc.tw/images/sponsor/microsoft.svg" style="max-width:400px;max-height:500px;" alt="Microsoft"></a>
 
             <div style="text-indent:-100px;font-size:0.5em;">and</div>
                     <a><img src="../images/trendmicro.png" alt="Trend Micro"></a>
                     <a><img src="../images/unizyx.png" alt="unizyx"></a>
                     <a><img src="../images/zyxel.png" alt="zyxel"></a><br>
-                    <a><img src="../images/webduino.png" alt="webduino"></a>
+                    <a><img src="../images/webduino.png" alt="webduino" style=""></a>
                     <a><img src="../images/friDay.png" alt="friDay"></a>
                     <a><img src="../images/kkbox.png" alt="kkbox"></a><br>
                     <a><img src="../images/ithome.png" alt="image"></a>
@@ -399,7 +427,7 @@
                   "topic":"Node.js, p2p and MAD SCIENCE",
                   "intro":"- Peer to peer in Node.js is a fast moving target. - In this talk we look into the cutting edge of what is possible using BitTorrent, p2p and Javascript. - This will be a continuation of my recent work with doing MAD SCIENCE with p2p and node. - There will be demos."
                },
-               "1413102600000":{
+               "1444421956202":{
                   "time":"16:30 - 17:20",
                   "speaker":"Muan",
                   "photo":"http://2015.jsdc.tw/images/speakers/muan.jpeg",
@@ -459,7 +487,7 @@
                   "topic":"node-ffi, 用 node 使用 c/c++ lib",
                   "intro":">node-ffi 是 node 的 foreign function interface 套件，可以透過它讓你的 node 應用程式使用現存的 C/C++ lib，本分享將藉由 @c9s 的 r3 router 為例，透過 node-ffi 連結讓 node 應用程式可以使用 libr3 所提供的高效率的 router，介紹各種實做時遇到的問題和解決方法。"
                },
-               "1413102600000":{
+               "1444421956202":{
                   "time":"16:30 - 17:20",
                   "speaker":"閃光洽",
                   "photo":"http://www.gravatar.com/avatar/e3ae72c70bbc66b854df24df2120a245.png",
@@ -472,12 +500,12 @@
                 var now = (new Date()).getTime().toString();
                 var nextTime = 0;
                 for(var k in sessions){
-                    if(now<k && Math.abs(k-now)<Math.abs(nextTime-now)){
+                    if(now<k && Math.abs(k-now)<=Math.abs(nextTime-now)){
                         nextTime = k;
                     }
                 }
                 var v = sessions[nextTime];
-                    var str = 'var nextTopic = {<br>"topic" : "'+v.topic+'",<br>"speaker" : "'+v.speaker+'",<br>"time" : "'+v.time+'",<br>"intro" : "'+v.intro+'"<br>};';
+                    var str = 'var nextTopic = {<br>　　"topic" : "'+v.topic+'",<br>　　"speaker" : "'+v.speaker+'",<br>　　"time" : "'+v.time+'",<br>　　"intro" : "'+v.intro+'"<br>};';
                     var typed = function(){
                       $('.title').prepend('<img src="'+v.photo+'" style="border-radius: 35px;width:35px;height:35px;"> &nbsp;');
                       $("#typed").typed({
@@ -497,7 +525,7 @@
 
             };
             updateConsole();
-            setInterval(function(){location.reload();},1800000);
+            setInterval(function(){location.reload();},600000);
         </script>
     </body>
 
