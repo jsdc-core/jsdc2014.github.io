@@ -74,9 +74,9 @@
         "img": "../images/consultant.jpg",
         "position": "Consultant"
       }, {
-        "name": "Chung Heng Chang",
+        "name": "Ellis Chang",
         "img": "../images/record.jpg",
-        "position": "Record"
+        "position": "Ticket / Documentary"
       }, {
         "name": "Webber",
         "img": "../images/service.jpg",
@@ -84,7 +84,7 @@
       }, {
         "name": "Wayne",
         "img": "../images/service2.jpg",
-        "position": "場務"
+        "position": "Venue"
       }, {
         "name": "Jr Hau Ju",
         "img": "../images/finance.jpg",
@@ -115,9 +115,9 @@
         "img": "../images/consultant.jpg",
         "position": "顧問"
       }, {
-        "name": "Chung Heng Chang",
+        "name": "Ellis Chang",
         "img": "../images/record.jpg",
-        "position": "記錄"
+        "position": "票務/記錄"
       }, {
         "name": "Webber",
         "img": "../images/service.jpg",
