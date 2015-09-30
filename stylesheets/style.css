@@ -1380,6 +1380,9 @@ section.partners .partner-link img {
   width: 100%;
   height: 100%;
 }
+section.partners .logo-mid img {
+  width: 60%;
+}
 section.partners .partner-close {
   font-size: 20px;
   color: #333;
