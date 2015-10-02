@@ -89,6 +89,8 @@
               display: block;
               margin: auto;
               max-width: 1230px;
+              height: 380px;
+              margin-top:10px;
               border-radius: 10px;
               box-shadow: rgba(0, 0, 0, 0.8) 0px 20px 70px;
               clear: both;
@@ -102,7 +104,9 @@
             .title-bar {
               padding: 5px 0;
               font-family: "Lucida Grande", sans-serif;
-              font-size: 0.75em;
+              font-size: 15px;
+              height: 20px;
+              line-height: 20px;
               text-align: center;
               text-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px;
               background-color: #f8f8f8;
@@ -120,7 +124,7 @@
               color: #f0f0f0;
               text-shadow: #000 0px 1px 0px;
               font-family: "Consolas", "Courier New", "Courier";
-              font-size: 0.6em;
+              font-size: 0.5em;
               line-height: 1.40em;
               font-weight: 500;
               text-align: left;
@@ -293,6 +297,10 @@
               height: 780px;
               left: -32px
             }
+            img.slide{
+              border-radius: 15px;
+              padding: 0px;
+            }
         </style>
     </head>
 
@@ -306,11 +314,11 @@
             <p>Loading...</p>
         </div-->
         <div id="impress">
-            <div id="js" class="step" data-x="-1000" data-y="-2000" data-delay="100000000">
+            <div id="js" class="step" data-x="-1000" data-y="-2000" data-delay="10000">
                 <div style="width:1000px;height:100px;font-size:0.8em;text-indent:-100px">Welcome to #jsdc2015</div>
                 <img id="logo" src="../images/logo.png">
             </div>
-            <div id="twitter_status" class="step" data-x="0" data-y="-2000" data-delay="100000000">
+            <div id="twitter_status" class="step" data-x="0" data-y="-2000" data-delay="10000">
               <div id="irc">
                   <iframe src="https://gitter.im/jsdc-core/JSDC2015/~chat#initial"></iframe>
               </div>
@@ -318,7 +326,7 @@
               <div style="position:absolute;bottom:30px;width:100%;text-align:center;font-size:0.8em;">http://hackfoldr.org/jsdc2015</div>
 
             </div>
-            <div class="step" data-x="1000" data-y="-2000" data-delay="100000000">
+            <div id="sponsors" class="step" data-x="1000" data-y="-2000" data-delay="60000">
             <div style="text-indent:-100px;font-size:0.5em;">Diamond Sponsorship</div>
                 <div class="carousel">
                     <a><img src="../images/LINE.svg" style="max-width:300px;max-height:500px;padding:0 20px;" alt="LINE"></a> &nbsp;
@@ -331,14 +339,30 @@
                     <a><img src="../images/webduino.png" alt="webduino" style=""></a>
                     <a><img src="../images/friDay.png" alt="friDay"></a>
                     <a><img src="../images/kkbox.png" alt="KKBOX"></a><br>
+                    <a><img src="images/MitraStar_tc.png" alt="mitrastar"></a>
                     <a><img src="../images/ithome.png" alt="ITHome"></a>
-                    <a><img src="../images/KKTIX.png" alt="KKTIX"></a>
                     <a><img src="../images/openfoundry.png" alt="OSSF"></a>
             	</div>
             </div>
 
             <div id="console" class="step" data-x="2000" data-y="-2000" data-delay="30000">
-                <div class="text-editor-wrap"><div class="title-bar"><span class="title">JSDC 2015</span></div><div class="text-body">> <span id="typed" style="white-space: auto;word-wrap:break-word;"></span></div></div>
+                <div class="text-editor-wrap">
+                  <div class="title-bar" id="title-bar0">
+                    <span class="title">JSDC 2015 @R0</span>
+                  </div>
+                  <div class="text-body">> <span id="typed0" style="white-space: auto;word-wrap:break-word;"></span></div></div>
+                <div class="text-editor-wrap">
+                  <div class="title-bar" id="title-bar1">
+                    <span class="title">JSDC 2015 @R2</span>
+                  </div>
+                  <div class="text-body">> <span id="typed1" style="white-space: auto;word-wrap:break-word;"></span></div></div>
+            </div>
+
+            <div id="line" class="step" data-x="3000" data-y="-2000" data-delay="10000">
+              <img src="images/line_slide.png" alt="" class="slide">
+            </div>
+            <div id="microsoft" class="step" data-x="4000" data-y="-2000" data-delay="10000">
+              <img src="images/miscosoft_slide.png" alt="" class="slide" style="height:600px">
             </div>
         </div>
         <script src="impress.js"></script>
@@ -353,198 +377,224 @@
             });
 
 
-            var sessions;
-            if(location.search.indexOf('r2')<0){
-            sessions = {
-               "1412989200000":{
-                  "time":"09:15 - 10:05",
-                  "speaker":"Jeff Pope",
-                  "photo":"http://2015.jsdc.tw/images/speakers/jeffpope.jpg",
-                  "topic":"Future of Enterprise Web Applications",
-                  "intro":"In the last five years, there has been an explosion of innovation in web and native technologies, with rapid releases of libraries, frameworks and tools to help developers create applications for this new world. On the front-end, there has been a Cambrian explosion of new experimental libraries to help web and native developers create the next generation of user experiences. In this talk, we analyze modern frameworks in 4 essential front-end aspects, and bring out Sencha's practice as a full-stack modern framework provider."
+            var sessions =
+            { r0:{
+               "1443834000000":{
+                  "time":"09:00 ~ 09:40",
+                  "speaker":"Hedger Wang",
+                  "photo":"http://2015.jsdc.tw/images/HedgerWang.jpeg",
+                  "topic":"React Navigation System",
+                  "intro":"React 是今年最火紅的前端框架，加上 React Native 可以將 React 編譯成原生的手機 app，也正式將 JavaScript 帶入下一個世代， Hedger 目前在 Facebook 擔任 React Native 的開發者，今天就請他與我們分享一些開發上的心得與未來的展望。"
                },
-               "1412994000000":{
-                  "time":"10:20 - 11:10",
-                  "speaker":"maxwell ogden",
-                  "photo":"https://avatars3.githubusercontent.com/u/39759?v=2&amp;s=460",
-                  "topic":"Use Node Modules In The Browser With Browserify",
-                  "intro":"This talk will talk about how to share code between browser and server using Node modules and Browserify (http://browserify.org/). Browserify lets you use many of the almost 100,000 modules on the NPM registry in the browser. This talk will show beginner and advanced examples."
+               "1443837600000":{
+                  "time":"10:00 ~ 10:40",
+                  "speaker":"George Duan",
+                  "photo":"http://2015.jsdc.tw/images/GeorgeDuan.jpg",
+                  "topic":"用 LINE Platform 打造有趣的 Javascript 應用",
+                  "intro":"如何用 LINE 的平台打造 JavaScript 的 App"
                },
-               "1412997600000":{
-                  "time":"11:20 - 12:10",
-                  "speaker":"MK (袁锋)",
-                  "photo":"http://2015.jsdc.tw/images/speakers/fengmk2.jpeg",
-                  "topic":"CNPM: 打造企業級私有NPM",
-                  "intro":"為什麼我們需要私有NPM、CNPM的實現細節、與NPM Enterprise 的對比"
+               "1443841200000":{
+                  "time":"11:00 ~ 11:40",
+                  "speaker":"Kuro Hsu",
+                  "photo":"http://2015.jsdc.tw/images/kuro-hsu.jpg",
+                  "topic":"Turf.js 地圖資料分析與視覺化",
+                  "intro":"Turf.js 是一個快速，輕量且開源的 JavaScript GIS 引擎，透過 Turf.js 我們可以很輕易的計算並分析地理資訊，並且可以套用至任何支援 GeoJson 的電子地圖。此場議程將為各位介紹如何透過電子地圖與 Turf.js 分析資訊，並快速產生可互動的資料地圖與視覺化。"
                },
-               "1413004200000":{
-                  "time":"13:10 ~ 14:00",
-                  "speaker":"Hsiaoming Yang(lepture)",
-                  "photo":"http://2015.jsdc.tw/images/speakers/lepture.jpeg",
-                  "topic":"不被重視的 HTML: Accessibility",
-                  "intro":"Accessibility on the web, which would be a HTML"
+               "1443847200000":{
+                  "time":"12:40 ~ 13:20",
+                  "speaker":"Matt",
+                  "photo":"http://2015.jsdc.tw/images/Matt.png",
+                  "topic":"Building Single Page Apps with Aurelia",
+                  "intro":"Aurelia 是 JavaScript 下一個世代的 framework，它擁有更強大的功能與更簡易的操作，且承襲了 two way binding 這種方便的資料操作屬性，今天 Matt 要為大家示範如何使用 Aurelia 製作一個 Single Page Application。"
                },
-               "1413007800000":{
-                  "time":"14:10 ~ 15:00",
-                  "speaker":"clkao",
-                  "photo":"http://2015.jsdc.tw/images/speakers/clkao.jpeg",
-                  "topic":"PgREST - PostgreSQL, JavaScript, and REST",
-                  "intro":"PgREST turns PostgreSQL into a RESTful JSON document store, allows running JavaScript and npm modules as stored procedures for queries and triggers from within the database. It also provides Firebase-compatible API for developing real-time applications. This talk will cover the building blocks of PgREST: PostgreSQL, plv8js, plv8x, as well as examples for turning existing relational data into REST endpoints."
+               "1443850200000":{
+                  "time":"13:30 ~ 14:10",
+                  "speaker":"保哥",
+                  "photo":"http://2015.jsdc.tw/images/Will.jpg",
+                  "topic":"使用 Visual Studio Code 建構 JavaScript 應用程式",
+                  "intro":"介紹 Visual Studio 的環境，與如何用 Visual Studio 與 JavaScript 建構出一個應用程式。"
                },
-               "1413012600000":{
-                  "time":"15:30 - 16:20",
-                  "speaker":"Huge",
-                  "photo":"http://2015.jsdc.tw/images/speakers/huge.jpeg",
-                  "topic":"RxJS for frontend developers",
-                  "intro":""
-               },
-               "1413016200000":{
-                  "time":"16:30 - 17:20",
-                  "speaker":"substack(James Halliday)",
-                  "photo":"http://2015.jsdc.tw/images/speakers/substack.png",
-                  "topic":"TBD",
-                  "intro":"(講者介紹) James Halliday在網路上的暱稱是 substack，他在 Node.js 界十分的活耀，目前他在 npm 上已發布過 300 多個模組，如果你玩過 Node.js在 npm 上的模組，那肯定使用過 substack 所開發的模組。 目前 substack 也在開發提供網頁開發者測試網頁在不同瀏覽器效果的有趣網站 browserling 跟 testling，同時也是這兩個網站的 co-founder 。 而 “I like tiny programs that do one thing well and one thing only” 這是 substack 對程式開發的精神與想法，而從他在github中的專案可看出。"
-               },
-               "1413076500000":{
-                  "time":"09:15 - 10:05",
-                  "speaker":"Special Guests",
-                  "photo":"",
-                  "topic":"Panel: Hello JSDC!",
-                  "intro":"/* Hello JSDC! */"
-               },
-               "1413080400000":{
-                  "time":"10:20 - 11:10",
-                  "speaker":"Jonathan",
-                  "photo":"http://2015.jsdc.tw/images/speakers/jonathanong.png",
-                  "topic":"Koa - Asynchronous Decorators as Middleware",
-                  "intro":"Koa is the spiritual successor to Express, also written by TJ Holowaychuk. Thanks to its elimination of callbacks, many issues and complexities present in many frameworks, such as Express no longer exist. In this talk, we will discuss:Problems that arise from creating apps with callback-based frameworks such as Express Complexities of other frameworks due to callback-based programming At a high-level, how to philosophically build your Koa app"
-               },
-               "1413084000000":{
-                  "time":"11:20 - 12:10",
-                  "speaker":"Jessica",
-                  "photo":"http://2015.jsdc.tw/images/speakers/jlord.png",
-                  "topic":"Teaching Git and GitHub with Node.js",
-                  "intro":"Introduction to NodeSchool.io workshoppers and community workshops and demonstrate using Node.js to interact with Git and build an interactive bot with the GitHub API."
-               },
-               "1413090600000":{
-                  "time":"13:10 - 14:00",
-                  "speaker":"Ruben",
-                  "photo":"http://2015.jsdc.tw/images/speakers/soggie.jpeg",
-                  "topic":"Leveraging ZMQ with Node.js",
-                  "intro":"\"Build short, simple, clear, modular, and extendable code that can be easily maintained and repurposed by developers other than its creators\" - Unix Philosophy: Small services talking to each other (Composable Design) is an integral part of large infrastructure systems design. There are many ways to facilitate communications between services, and ZMQ is one of them. Learn how to use ZMQ with node.js to create a service-oriented architecture, and learn how to build custom network topologies instead of being constrained to follow the standard ones that does not fit your infrastructure goals."
-               },
-               "1413094200000":{
-                  "time":"14:10 - 15:00",
-                  "speaker":"吳亮（月影）",
-                  "photo":"http://2015.jsdc.tw/images/speakers/akira.jpeg",
-                  "topic":"大型互聯網公司前端團隊的那些事兒",
-                  "intro":"前端作為互聯網開發環節中的重要角色，不論在技術、工程、方法論還是個人與團隊成長上都面臨著種種挑戰。作為一位前端技術leader，我想與大家分享我在兩家大公司管理前端團隊中遇到的各種問題，​​積累的各種經驗和踩過的坑，共同探討如何通過項目積累和成長，成為行業內比較優秀的前端團隊"
-               },
-               "1413099000000":{
-                  "time":"15:30 - 16:20",
-                  "speaker":"Mathias",
-                  "photo":"http://2015.jsdc.tw/images/speakers/mafintosh.jpeg",
-                  "topic":"Node.js, p2p and MAD SCIENCE",
-                  "intro":"- Peer to peer in Node.js is a fast moving target. - In this talk we look into the cutting edge of what is possible using BitTorrent, p2p and Javascript. - This will be a continuation of my recent work with doing MAD SCIENCE with p2p and node. - There will be demos."
-               },
-               "1444421956202":{
-                  "time":"16:30 - 17:20",
-                  "speaker":"Muan",
-                  "photo":"http://2015.jsdc.tw/images/speakers/muan.jpeg",
-                  "topic":"GitHub 大冒險",
-                  "intro":"GitHub 有著與眾不同的文化，開發團隊常常沒有仔細的界線。我想在這邊跟大家分享 GitHub 內部的文化、開發環境，以及我加入 GitHub 一年多來所學到的事情。"
-               }
-            };
-            }else{
-
-            sessions = {
-               "1412997600000":{
-                  "time":"11:20 - 12:10",
-                  "speaker":"Casear Chu",
-                  "photo":"https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/255240_1015…e9&amp;oe=547C8DA5&amp;__gda__=1416566828_0b6c57252e8e51a5bfc24445706686b6",
-                  "topic":"ZMQ 的安全與架構 in node.js",
-                  "intro":"zmq-soa，zmq secure issue and detail of implement distributed zmq SOA parttern -  broker , worker , requester."
-               },
-               "1413004200000":{
-                  "time":"13:10 ~ 14:00",
-                  "speaker":"Jeremy Lu",
-                  "photo":"http://f.cl.ly/items/3K0L32190s1I193C2S2s/1157511_10151703860008423_1394089489_n.jpg",
-                  "topic":"react/flux in Action",
-                  "intro":"react/flux in Action"
-               },
-               "1413007800000":{
-                  "time":"14:10 - 15:00",
-                  "speaker":"Greg Weng",
-                  "photo":"http://2015.jsdc.tw/images/speakers/wajima.jpg",
-                  "topic":"Functional JavaScript, why or why not?",
-                  "intro":"While some people feel functional programming is just an impractical buzz word, developers are taking actions to make certain nice or even weird features available on those not-so-functional languages. Could we play these new tricks well with JavaScript, the most misunderstood language in the world? Or would we get into trouble, while we're trying to escape from the deepest monad? In this talk, we would begin our journey from the simplest high-order functions, to see if these functional features can be successfully applied in JavaScript programming."
-               },
-               "1413012600000":{
-                  "time":"15:30 - 16:20",
-                  "speaker":"Ben Lue",
-                  "photo":"https://s.gravatar.com/avatar/322e4d816ebeaaebd43c93e6b678ff52?s=205&amp;r=g",
-                  "topic":"Oops! I Shrink My Web Server",
-                  "intro":"Friendly reminder: This talk will dissect web pages. For those who are sensitive to violent scenes or allergic to new ideas, viewer discretion is advised."
-               },
-               "1413084000000":{
-                  "time":"11:20 - 12:10",
-                  "speaker":"Fred Chien",
-                  "photo":"http://en.gravatar.com/userimage/10121824/98b15bd27e185433ef9af778d52a0545.jpg?size=200",
-                  "topic":"Feature-oriented Programming with JavaScript",
-                  "intro":"特色導向程式開發（找不到中文翻譯，所以暫譯） - Feature-oriented Programming (FOP) 是一個不同於傳統物件導向(OOP)的程式開發概念，在近年來慢慢開始有人討論其可行性。可以有效率擴充和增加程式功能，相當具有彈性，並易於管理程式架構和邏輯，利於軟體產品的開發。某一天，不小心引入 FOP 到 JavaScript 和 Node.js 的開發後，意外發現 FOP 與動態語言相當契合，別有一番風味，可以用完全不一樣的方法，來看待和開發 JavaScript 應用程式。FOP 奇幻冒險，就此展開。"
-               },
-               "1413090600000":{
-                  "time":"13:10 - 15:00",
-                  "speaker":"Stefan Stoelzle",
-                  "photo":"http://2015.jsdc.tw/images/speakers/stefan.jpg",
-                  "topic":"Ext JS Workshop / The 90 Minute App",
-                  "intro":"In this workshop, we will provide an in-depth guide to Ext JS 5, including its layout system, data package, and MVVM. We will need Ext JS 5 and Sencha Cmd 5 for the hands-on, please make sure to download at http://www.sencha.com/products/sencha-cmd/download and http://www.sencha.com/products/extjs/#try"
-               },
-               "1413099000000":{
-                  "time":"15:30 - 16:20",
+               "1443853800000":{
+                  "time":"14:30 ~ 15:10",
                   "speaker":"othree",
-                  "photo":"https://secure.gravatar.com/avatar/c4ce16f549c450f4759eb37f5d5d1a63.png?s=205",
-                  "topic":"node-ffi, 用 node 使用 c/c++ lib",
-                  "intro":">node-ffi 是 node 的 foreign function interface 套件，可以透過它讓你的 node 應用程式使用現存的 C/C++ lib，本分享將藉由 @c9s 的 r3 router 為例，透過 node-ffi 連結讓 node 應用程式可以使用 libr3 所提供的高效率的 router，介紹各種實做時遇到的問題和解決方法。"
+                  "photo":"http://2015.jsdc.tw/images/othree.jpg",
+                  "topic":"Transducer",
+                  "intro":"Transducer 是 Clojure 語言所提出的一種新的運算模型，主要的目標是對 collection data 做運算，本講題將用簡單的數學式和程式碼範例來解釋 transducer 究竟是怎麼能夠辦到這些事情。"
                },
-               "1444421956202":{
-                  "time":"16:30 - 17:20",
-                  "speaker":"閃光洽",
-                  "photo":"http://www.gravatar.com/avatar/e3ae72c70bbc66b854df24df2120a245.png",
-                  "topic":"Famo.us - New generation of HTML5 Web Application Framework",
-                  "intro":"-What's Famo.us? Is it famous? -Why Famo.us? -What difference between others framework? -HOWTO? -Structure and performance issues, -Integration with Angular -Not so distant future"
+               "1443857400000":{
+                  "time":"15:30 ~ 16:10",
+                  "speaker":"謝宗穎",
+                  "photo":"http://2015.jsdc.tw/images/%E8%AC%9D%E5%AE%97%E7%A9%8E.jpeg",
+                  "topic":"TDD 的開發哲學，以 nodejs 為例",
+                  "intro":"鑒於每次講到 test，總是會有人將 test 視為開發上的負擔，希望透過此議程讓大家知道 test 是好朋友，而不是包袱，認識他，將會是你程式開發路上的好夥伴。"
+               },
+               "1443861000000":{
+                  "time":"16:30 ~ 17:10",
+                  "speaker":"Paul Li",
+                  "photo":"http://2015.jsdc.tw/images/PaulLi.png",
+                  "topic":"Web Components & the next generation ADs",
+                  "intro":"Web Components 是未來的W3C標準，提供四大技術讓開發者實作元件化的網頁開發。今天 Paul Li 要來介紹如何使用 Web Components 實作新一代的網頁廣告。"
+               },
+               "1443920400000":{
+                  "time":"09:00 ~ 09:40",
+                  "speaker":"Josh Koo",
+                  "photo":"http://2015.jsdc.tw/images/JoshKoo.jpeg",
+                  "topic":"Three.js, WebGL & Tooling",
+                  "intro":"Three.js 可以利用 JavaScript 做出網頁上的 3D 特效，許多遊戲公司也漸漸地使用 Three.js 去做一些 3D 網頁遊戲，今天 Josh 就要為我們帶來 Three.js 的開發經驗與開發工具介紹。"
+               },
+               "1443924000000":{
+                  "time":"10:00 ~ 10:40",
+                  "speaker":"Marty",
+                  "photo":"http://2015.jsdc.tw/images/MartyHsu.jpg",
+                  "topic":"Build Anything with JavaScript",
+                  "intro":"在物聯網的發展洪流裡，越來越夯的 Maker 時代已經來臨，而 Arduino 就是這個世代最普及的神兵利器。Marty 會與我們分享，身為一位 Web 開發者，如何善用自身最擅長的HTML/JavaScript 來控制IoT裝置。"
+               },
+               "1443927600000":{
+                  "time":"11:00 ~ 11:40",
+                  "speaker":"Sam Lee",
+                  "photo":"http://2015.jsdc.tw/images/SamLee.jpg",
+                  "topic":"React Native 實戰!  融入現有 iOS App",
+                  "intro":"Sam 要介紹如何用 React Native 融入現有 iOS app ，並且架構解釋與實戰開發經驗分享"
+               },
+               "1443933600000":{
+                  "time":"12:40 ~ 14:10",
+                  "speaker":"Jonathon",
+                  "photo":"http://2015.jsdc.tw/images/Janathon.jpeg",
+                  "topic":"Workshop on Control Flow w/ ES2015 and beyond.",
+                  "intro":"Janathon 為 Koa.js 與 Co 的作者，今天他就要手把手帶著大家做一個 workshop。"
+               },
+               "1443940200000":{
+                  "time":"14:30 ~ 15:10",
+                  "speaker":"Mark Su",
+                  "photo":"http://2015.jsdc.tw/images/MarkSu.jpg",
+                  "topic":"Building Hybrid Mobile Apps with Ionic Framework and AngularJS",
+                  "intro":"當全世界都在瘋 React 與 React Native 的時候，別忘了還有 Angular.js 與 ionic 這個 framework。今天 Mark Su 要為大家帶來如何用 Angular 與 Ionic 打造 app 的開發經驗分享。"
+               },
+               "1443943800000":{
+                  "time":"15:30 ~ 16:10",
+                  "speaker":"XP Steven",
+                  "photo":"http://2015.jsdc.tw/images/XpSteven.jpg",
+                  "topic":"React Test and Material Design Lite + React？",
+                  "intro":"Xp 目前將自家網站從原有架構全面改成 React，他今天要介紹有關於 React 與 Material Design 與 React 測試的開發心得。"
+               },
+               "1443947400000":{
+                  "time":"16:30 ~ 17:10",
+                  "speaker":"Lightning talk",
+                  "photo":"http://2015.jsdc.tw/images/logo.png",
+                  "topic":"Lightning talk",
+                  "intro":"Lightning talk"
                }
-            };
+            },
+            r2:{
+               "1443837600000":{
+                  "time":"10:00 ~ 10:40",
+                  "speaker":"Yuren Ju",
+                  "photo":"http://2015.jsdc.tw/images/YurenJu.jpg",
+                  "topic":"JavaScript 開發流程自動化懶人包",
+                  "intro":"身為一個懶惰的工程師，讓所有事情自動化實在一個夢想。從單元測試到自動化部屬，每件事情都希望能自動完成。所以今天會，利用各種工具來協助自動化的部署與提升自動化的比例。"
+               },
+               "1443841200000":{
+                  "time":"11:00 ~ 11:40",
+                  "speaker":"Cheton Wu",
+                  "photo":"http://2015.jsdc.tw/images/ChetonWu.jpg",
+                  "topic":"用JavaScript實現微電腦自動控制不是夢！",
+                  "intro":"利用 Arduino 與 JavaScript 一起踏入物聯網的世界。"
+               },
+               "1443850200000":{
+                  "time":"13:30 ~ 14:10",
+                  "speaker":"Casear Chu",
+                  "photo":"http://2015.jsdc.tw/images/CasearChu.jpg",
+                  "topic":"技術演進的大亂鬥",
+                  "intro":"從 Angular 到 React isomorphic，從 sass 到 postcss ，neo4j，mongodb 到arangodb，從 gulp 到 webpack，Casear 會分享在製造產品途中，遇到技術大亂鬥心路歷程與經驗。"
+               },
+               "1443853800000":{
+                  "time":"14:30 ~ 15:10",
+                  "speaker":"Sean Lee",
+                  "photo":"http://2015.jsdc.tw/images/SeanLee.jpg",
+                  "topic":"unidisk - Architecture of Web Storage filesystem",
+                  "intro":"今天Sean要來為我們介紹unidisk，分享他如何製作一個讓NodeJS可以串接掛載雲端儲存的架構。"
+               },
+               "1443857400000":{
+                  "time":"15:30 ~ 16:10",
+                  "speaker":"王唯達",
+                  "photo":"http://2015.jsdc.tw/images/%E7%8E%8B%E5%94%AF%E9%81%94.jpg",
+                  "topic":"jQuery.component，一個 javascript MVC",
+                  "intro":"jQuery.component 為一套  client 端 javascript MVC。具有非同步處理與整齊簡潔的程式碼。"
+               },
+               "1443861000000":{
+                  "time":"16:30 ~ 17:10",
+                  "speaker":"Evan Tseng",
+                  "photo":"http://2015.jsdc.tw/images/EvanTseng.jpeg",
+                  "topic":"Web of Things Maker - Build WoT/IoT Applications with JavaScript",
+                  "intro":"WoT Maker 是一個線上編輯器，它讓 developers 在網頁中去控制物聯網裝置，當你把你的電腦跟 Arduino（或其他裝置）連線，然後上 WoT Maker 網站，你就可以在線上實現 WoT/IoT App。今天 Evan 就要為大家介紹關於  WoT/IoT 開發工具與經驗的分享。"
+               },
+               "1443927600000":{
+                  "time":"11:00 ~ 11:40",
+                  "speaker":"pH200",
+                  "photo":"https://avatars1.githubusercontent.com/u/1430310?v=3&s=460",
+                  "topic":"Exploring Functional UIs with Cycle",
+                  "intro":"講者將分享他的Cycle-React ，他讓開發者可以使用functional的形式來撰寫React，並觀察者模式來表示UI。 Cycle-React本身是immutable的，內部預設是使用PureRenderMixin。同時，他也是一個 將Cycle.js這個美妙的framework使用React-style來實作的範例。"
+               },
+               "1443940200000":{
+                  "time":"14:30 ~ 15:10",
+                  "speaker":"Fred Chien",
+                  "photo":"http://2015.jsdc.tw/images/FredChien.jpg",
+                  "topic":"Brig - QML 與 Node.js 的華麗大冒險",
+                  "intro":"Fred 致力於 Open Source 的開發與推廣，今天 Fred 就要為大家帶來 Node.js 與 QML 的開發經驗。"
+               },
+               "1443943800000":{
+                  "time":"15:30 ~ 16:10",
+                  "speaker":"WM",
+                  "photo":"http://2015.jsdc.tw/images/WM.jpeg",
+                  "topic":"使用 Electron 跨平台建構 JavaScript 桌面程式",
+                  "intro":"介紹 Electron 提供的各項桌面環境整合功能，及應用實例與使用心得。"
+               }
             }
+            };
             var updateConsole = function(){
-                var now = (new Date()).getTime().toString();
-                var nextTime = 0;
-                for(var k in sessions){
-                    if(now<k && Math.abs(k-now)<=Math.abs(nextTime-now)){
-                        nextTime = k;
+                var now = (new Date('2015-10-04 08:12')).getTime().toString();
+                var nextTime0 = 0, nextTime1 = 0;
+                for(var k in sessions.r0){
+                    if(now<k && Math.abs(k-now)<=Math.abs(nextTime0-now)){
+                        nextTime0 = k;
                     }
                 }
-                var v = sessions[nextTime];
-                    var str = 'var nextTopic = {<br>　　"topic" : "'+v.topic+'",<br>　　"speaker" : "'+v.speaker+'",<br>　　"time" : "'+v.time+'",<br>　　"intro" : "'+v.intro+'"<br>};';
-                    var typed = function(){
-                      $('.title').prepend('<img src="'+v.photo+'" style="border-radius: 35px;width:35px;height:35px;"> &nbsp;');
-                      $("#typed").typed({
-                            strings: [str],
-                            typeSpeed: 0,
-                            backSpeed: 0,
-                            callback: function(){
-                              setTimeout(function(){
-                                $("#console").empty();
-                                $("#console").append('<div class="text-editor-wrap"><div class="title-bar"><span class="title">JSDC 2015</span></div><div class="text-body">> <span id="typed" style="white-space: auto;word-wrap:break-word;"></span></div></div>');
-                                typed();
-                              }, 20000);
-                            }
-                        });
-                    };
-                    typed();
+                for(var k in sessions.r2){
+                    if(now<k && Math.abs(k-now)<=Math.abs(nextTime1-now)){
+                        nextTime1 = k;
+                    }
+                }
+                var v0 = sessions.r0[nextTime0];
+                var v1 = sessions.r2[nextTime1];
+                var str0 = 'var nextTopicR0 = {<br>　　"topic" : "'+v0.topic+'",<br>　　"speaker" : "'+v0.speaker+'",<br>　　"time" : "'+v0.time+'",<br>　　"intro" : "'+v0.intro+'"<br>};';
+                var str1 = 'var nextTopicR2 = {<br>　　"topic" : "'+v1.topic+'",<br>　　"speaker" : "'+v1.speaker+'",<br>　　"time" : "'+v1.time+'",<br>　　"intro" : "'+v1.intro+'"<br>};';
+                var typed = function(){
+                  $('#title-bar0 .title').prepend('<img src="'+v0.photo+'" style="border-radius: 35px;width:20px;height:20px;"> &nbsp;');
+                  $('#title-bar1 .title').prepend('<img src="'+v1.photo+'" style="border-radius: 35px;width:20px;height:20px;"> &nbsp;');
+                  $("#typed0").typed({
+                        strings: [str0],
+                        typeSpeed: 0,
+                        backSpeed: 0
+                    });
+                  $("#typed1").typed({
+                        strings: [str1],
+                        typeSpeed: 0,
+                        backSpeed: 0
+                    });
+                };
+                typed();
+
+
+              setInterval(function(){
+                $("#console").empty();
+                $("#console").append('<div class="text-editor-wrap"><div class="title-bar" id="title-bar0"><span class="title">JSDC 2015 @R0</span></div><div class="text-body">> <span id="typed0" style="white-space: auto;word-wrap:break-word;"></span></div></div>');
+                $("#console").append('<div class="text-editor-wrap"><div class="title-bar" id="title-bar1"><span class="title">JSDC 2015 @R2</span></div><div class="text-body">> <span id="typed1" style="white-space: auto;word-wrap:break-word;"></span></div></div>');
+                typed();
+              }, 30000);
 
             };
             updateConsole();
+
             setInterval(function(){location.reload();},600000);
             setTimeout(function(){$('#irc iframe').fadeIn();},8000);
         </script>
