@@ -5,136 +5,180 @@
       "agendas": [{
         "speaker": "Hedger Wang",
         "image": "../images/HedgerWang.jpeg",
-        "topic": "React Navigation System"
+        "topic": "React Navigation System",
+        "slide": "",
+        "youtube": "A6B4T6-XqWU"
       }]
     }, {
       "time": "09:40",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "DESSERT TIME"
+        "topic": "DESSERT TIME",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "10:00",
       "agendas": [{
         "speaker": "George Duan",
         "image": "../images/GeorgeDuan.jpg",
-        "topic": "用LINE Platform打造有趣的Javascript應用"
+        "topic": "Build interesting Javascript Apps with LINE Platform",
+        "slide": "",
+        "youtube": "icVEwjiNHPE"
       }, {
         "speaker": "Yuren Ju",
         "image": "../images/YurenJu.jpg",
-        "topic": "JavaScript 開發流程自動化懶人包"
+        "topic": "Easy-to-digest Summary of JavaScript Development Automation",
+        "slide": "https://speakerdeck.com/yurenju/javascript-kai-fa-liu-cheng-zi-dong-hua-lan-ren-bao/",
+        "youtube": "TbuVLawp4GI"
       }]
     }, {
       "time": "10:40",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "BREAK TIME"
+        "topic": "BREAK TIME",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "11:00",
       "agendas": [{
         "speaker": "Kuro Hsu",
         "image": "../images/kuro-hsu.jpg",
-        "topic": "Turf.js 地圖資料分析與視覺化"
+        "topic": "Turf.js Map Data Analysis and Visualization",
+        "slide": "http://www.slideshare.net/kurotanshi/jsdc-2015-turfjs",
+        "youtube": ""
       }, {
         "speaker": "Cheton Wu",
         "image": "../images/ChetonWu.jpg",
-        "topic": "用JavaScript實現微電腦自動控制不是夢！"
+        "topic": "Microcomputer Automation with JavaScript in Real Life",
+        "slide": "http://cheton.github.io/jsdc2015/#/",
+        "youtube": ""
       }]
     }, {
       "time": "11:40",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "LUNCH"
+        "topic": "LUNCH",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "12:40",
       "agendas": [{
         "speaker": "Matt",
         "image": "../images/Matt.png",
-        "topic": "Building Single-Page Apps with Aurelia"
+        "topic": "Building Single-Page Apps with Aurelia",
+        "slide": "//www.tinyurl.com/aurelia-jsdc2015",
+        "youtube": ""
       }]
     }, {
       "time": "13:20",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "BREAK TIME"
+        "topic": "BREAK TIME",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "13:30",
       "agendas": [{
         "speaker": "Will 保哥",
         "image": "../images/Will.jpg",
-        "topic": "使用 Visual Studio Code 建構 JavaScript 應用程式"
+        "topic": "Build JavaScript Applications with Visual Studio Code",
+        "slide": "http://www.slideshare.net/WillHuangTW/visual-studio-code-javascript",
+        "youtube": ""
       }, {
         "speaker": "Casear Chu",
         "image": "../images/CasearChu.jpg",
-        "topic": "技術演進的大亂鬥"
+        "topic": "Technical Evolution and Fights",
+        "slide": "http://www.slideshare.net/casear1/ss-53516617",
+        "youtube": ""
       }]
     }, {
       "time": "14:10",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "BREAK TIME"
+        "topic": "BREAK TIME",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "14:30",
       "agendas": [{
         "speaker": "othree",
         "image": "../images/othree.jpg",
-        "topic": "Transducer"
+        "topic": "Transducer",
+        "slide": "https://speakerdeck.com/othree/transducer",
+        "youtube": ""
       }, {
         "speaker": "Sean Lee",
         "image": "../images/SeanLee.jpg",
-        "topic": "unidisk - Architecture of Web Storage filesystem"
+        "topic": "unidisk - Architecture of Web Storage filesystem",
+        "slide": "//goo.gl/TdDuiZ",
+        "youtube": ""
       }]
     }, {
       "time": "15:10",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "TEA TIME"
+        "topic": "TEA TIME",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "15:30",
       "agendas": [{
         "speaker": "謝宗穎",
         "image": "../images/謝宗穎.jpeg",
-        "topic": "TDD 的開發哲學，以 nodejs 為例"
+        "topic": "Philosophy of TDD",
+        "slide": "http://www.slideshare.net/smlsun/jsdc-2015-tdd-nodejs",
+        "youtube": ""
       }, {
         "speaker": "王唯達",
         "image": "../images/王唯達.jpg",
-        "topic": "jQuery.component,一個javascript MVC"
+        "topic": "jQuery.component, A Javascript MVC",
+        "slide": "http://jqcomp.org/reveal.js/jsdc.html#/",
+        "youtube": ""
       }]
     }, {
       "time": "16:10",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "BREAK TIME"
+        "topic": "BREAK TIME",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "16:30",
       "agendas": [{
         "speaker": "Paul Li",
         "image": "../images/PaulLi.png",
-        "topic": "Web Components & the next generation ADs"
+        "topic": "Web Components & the next generation ADs",
+        "slide": "http://mei.homin.com.tw/Keynote_web_components_and_the_next_generation_ads.html",
+        "youtube": ""
       }, {
         "speaker": "Evan Tseng",
         "image": "../images/EvanTseng.jpeg",
-        "topic": "Web of Things Maker - Build WoT/IoT Applications with JavaScript"
+        "topic": "Web of Things Maker - Build WoT/IoT Applications with JavaScript",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "17:10",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "END"
+        "topic": "END",
+        "slide": "",
+        "youtube": ""
       }]
     }],
     "daytwo": [{
@@ -142,110 +186,144 @@
       "agendas": [{
         "speaker": "Josh Koo",
         "image": "../images/JoshKoo.jpeg",
-        "topic": "Tooling with Three.js"
+        "topic": "Tooling with Three.js",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "09:40",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "DESSERT TIME"
+        "topic": "DESSERT TIME",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "10:00",
       "agendas": [{
         "speaker": "Marty",
         "image": "../images/MartyHsu.jpg",
-        "topic": "Build Anything with JavaScript"
+        "topic": "Build Anything with JavaScript",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "10:40",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "BREAK TIME"
+        "topic": "BREAK TIME",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "11:00",
       "agendas": [{
         "speaker": "Sam Lee",
         "image": "../images/SamLee.jpg",
-        "topic": "React Native 實戰!  融入現有 iOS App"
+        "topic": "React Native in Action!  Into existing iOS App",
+        "slide": "https://www.dropbox.com/s/6393ic7yipnerrb/JSDC_2015_React_Native.pdf?dl=0",
+        "youtube": ""
       }, {
         "speaker": "pH200",
         "image": "https://avatars1.githubusercontent.com/u/1430310?v=3&s=460",
-        "topic": "Exploring Functional UIs with Cycle"
+        "topic": "Exploring Functional UIs with Cycle",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "11:40",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "LUNCH"
+        "topic": "LUNCH",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "12:40",
       "agendas": [{
         "speaker": "Jonathan",
         "image": "../images/Janathon.jpeg",
-        "topic": "Workshop on Control Flow w/ ES2015 and beyond."
+        "topic": "Workshop on Control Flow w/ ES2015 and beyond.",
+        "slide": "http://www.jongleberry.com/async-control-flow/",
+        "youtube": ""
       }]
     }, {
       "time": "14:10",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "BREAK TIME"
+        "topic": "BREAK TIME",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "14:30",
       "agendas": [{
         "speaker": "Mark Su",
         "image": "../images/MarkSu.jpg",
-        "topic": "Building Hybrid Mobile Apps with Ionic Framework and AngularJS"
+        "topic": "Building Hybrid Mobile Apps with Ionic Framework and AngularJS",
+        "slide": "",
+        "youtube": ""
       }, {
         "speaker": "Fred Chien",
         "image": "../images/FredChien.jpg",
-        "topic": "Brig - QML 與 Node.js 的華麗大冒險"
+        "topic": "Brig - Grand advanture of QML and Node.js",
+        "slide": "http://www.slideshare.net/cfsghost/brig-nodejs-qml",
+        "youtube": ""
       }]
     }, {
       "time": "15:10",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "TEA TIME"
+        "topic": "TEA TIME",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "15:30",
       "agendas": [{
         "speaker": "Xp Steven",
         "image": "../images/XpSteven.jpg",
-        "topic": "React Test and Material Design Lite + React？"
+        "topic": "React Test and Material Design Lite + React？",
+        "slide": "https://docs.google.com/presentation/d/1Xk-CfkdF2cnwZpb2o9SvlySG3iwaI5b4rWEIskOqO1Y/pub",
+        "youtube": ""
       }, {
         "speaker": "WM",
         "image": "../images/WM.jpeg",
-        "topic": "使用 Electron 跨平台建構 JavaScript 桌面程式"
+        "topic": "Build Cross Platform Desktop Application with Electron",
+        "slide": "https://speakerdeck.com/kidwm/build-cross-platform-desktop-application-with-electron",
+        "youtube": ""
       }]
     }, {
       "time": "16:10",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "BREAK TIME"
+        "topic": "BREAK TIME",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "16:30",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "Lighting Talk"
+        "topic": "Lighting Talk",
+        "slide": "http://www.slideshare.net/tysh310246/async-53508623",
+        "youtube": ""
       }]
     }, {
       "time": "17:10",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "END"
+        "topic": "END",
+        "slide": "",
+        "youtube": ""
       }]
     }]
   },
@@ -255,136 +333,180 @@
       "agendas": [{
         "speaker": "Hedger Wang",
         "image": "../images/HedgerWang.jpeg",
-        "topic": "React Navigation System"
+        "topic": "React Navigation System",
+        "slide": "",
+        "youtube": "A6B4T6-XqWU"
       }]
     }, {
       "time": "09:40",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "早上點心"
+        "topic": "早上點心",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "10:00",
       "agendas": [{
         "speaker": "George Duan",
         "image": "../images/GeorgeDuan.jpg",
-        "topic": "用LINE Platform打造有趣的Javascript應用"
+        "topic": "用LINE Platform打造有趣的Javascript應用",
+        "slide": "",
+        "youtube": "icVEwjiNHPE"
       }, {
         "speaker": "Yuren Ju",
         "image": "../images/YurenJu.jpg",
-        "topic": "JavaScript 開發流程自動化懶人包"
+        "topic": "JavaScript 開發流程自動化懶人包",
+        "slide": "https://speakerdeck.com/yurenju/javascript-kai-fa-liu-cheng-zi-dong-hua-lan-ren-bao/",
+        "youtube": "TbuVLawp4GI"
       }]
     }, {
       "time": "10:40",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "休息"
+        "topic": "休息",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "11:00",
       "agendas": [{
         "speaker": "Kuro Hsu",
         "image": "../images/kuro-hsu.jpg",
-        "topic": "Turf.js 地圖資料分析與視覺化"
+        "topic": "Turf.js 地圖資料分析與視覺化",
+        "slide": "http://www.slideshare.net/kurotanshi/jsdc-2015-turfjs",
+        "youtube": ""
       }, {
         "speaker": "Cheton Wu",
         "image": "../images/ChetonWu.jpg",
-        "topic": "用JavaScript實現微電腦自動控制不是夢！"
+        "topic": "用JavaScript實現微電腦自動控制不是夢！",
+        "slide": "http://cheton.github.io/jsdc2015/#/",
+        "youtube": ""
       }]
     }, {
       "time": "11:40",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "午餐"
+        "topic": "午餐",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "12:40",
       "agendas": [{
         "speaker": "Matt",
         "image": "../images/Matt.png",
-        "topic": "Building Single-Page Apps with Aurelia"
+        "topic": "Building Single-Page Apps with Aurelia",
+        "slide": "//www.tinyurl.com/aurelia-jsdc2015",
+        "youtube": ""
       }]
     }, {
       "time": "13:20",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "休息"
+        "topic": "休息",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "13:30",
       "agendas": [{
         "speaker": "Will 保哥",
         "image": "../images/Will.jpg",
-        "topic": "使用 Visual Studio Code 建構 JavaScript 應用程式"
+        "topic": "使用 Visual Studio Code 建構 JavaScript 應用程式",
+        "slide": "http://www.slideshare.net/WillHuangTW/visual-studio-code-javascript",
+        "youtube": ""
       }, {
         "speaker": "Casear Chu",
         "image": "../images/CasearChu.jpg",
-        "topic": "技術演進的大亂鬥"
+        "topic": "技術演進的大亂鬥",
+        "slide": "http://www.slideshare.net/casear1/ss-53516617",
+        "youtube": ""
       }]
     }, {
       "time": "14:10",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "休息"
+        "topic": "休息",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "14:30",
       "agendas": [{
         "speaker": "othree",
         "image": "../images/othree.jpg",
-        "topic": "Transducer"
+        "topic": "Transducer",
+        "slide": "https://speakerdeck.com/othree/transducer",
+        "youtube": ""
       }, {
         "speaker": "Sean Lee",
         "image": "../images/SeanLee.jpg",
-        "topic": "unidisk - Architecture of Web Storage filesystem"
+        "topic": "unidisk - Architecture of Web Storage filesystem",
+        "slide": "//goo.gl/TdDuiZ",
+        "youtube": ""
       }]
     }, {
       "time": "15:10",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "下午茶"
+        "topic": "下午茶",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "15:30",
       "agendas": [{
         "speaker": "謝宗穎",
         "image": "../images/謝宗穎.jpeg",
-        "topic": "TDD 的開發哲學，以 nodejs 為例"
+        "topic": "TDD 的開發哲學，以 nodejs 為例",
+        "slide": "http://www.slideshare.net/smlsun/jsdc-2015-tdd-nodejs",
+        "youtube": ""
       }, {
         "speaker": "王唯達",
         "image": "../images/王唯達.jpg",
-        "topic": "jQuery.component,一個javascript MVC"
+        "topic": "jQuery.component,一個javascript MVC",
+        "slide": "http://jqcomp.org/reveal.js/jsdc.html#/",
+        "youtube": ""
       }]
     }, {
       "time": "16:10",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "休息"
+        "topic": "休息",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "16:30",
       "agendas": [{
         "speaker": "Paul Li",
         "image": "../images/PaulLi.png",
-        "topic": "Web Components & the next generation ADs"
+        "topic": "Web Components & the next generation ADs",
+        "slide": "http://mei.homin.com.tw/Keynote_web_components_and_the_next_generation_ads.html",
+        "youtube": ""
       }, {
         "speaker": "Evan Tseng",
         "image": "../images/EvanTseng.jpeg",
-        "topic": "Web of Things Maker - Build WoT/IoT Applications with JavaScript"
+        "topic": "Web of Things Maker - Build WoT/IoT Applications with JavaScript",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "17:10",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "收工啦!"
+        "topic": "收工啦!",
+        "slide": "",
+        "youtube": ""
       }]
     }],
     "daytwo": [{
@@ -392,110 +514,144 @@
       "agendas": [{
         "speaker": "Josh Koo",
         "image": "../images/JoshKoo.jpeg",
-        "topic": "Tooling with Three.js"
+        "topic": "Tooling with Three.js",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "09:40",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "早上點心"
+        "topic": "早上點心",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "10:00",
       "agendas": [{
         "speaker": "Marty",
         "image": "../images/MartyHsu.jpg",
-        "topic": "Build Anything with JavaScript"
+        "topic": "Build Anything with JavaScript",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "10:40",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "休息"
+        "topic": "休息",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "11:00",
       "agendas": [{
         "speaker": "Sam Lee",
         "image": "../images/SamLee.jpg",
-        "topic": "React Native 實戰!  融入現有 iOS App"
+        "topic": "React Native 實戰!  融入現有 iOS App",
+        "slide": "https://www.dropbox.com/s/6393ic7yipnerrb/JSDC_2015_React_Native.pdf?dl=0",
+        "youtube": ""
       }, {
         "speaker": "pH200",
         "image": "https://avatars1.githubusercontent.com/u/1430310?v=3&s=460",
-        "topic": "Exploring Functional UIs with Cycle"
+        "topic": "Exploring Functional UIs with Cycle",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "11:40",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "午餐"
+        "topic": "午餐",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "12:40",
       "agendas": [{
         "speaker": "Jonathan",
         "image": "../images/Janathon.jpeg",
-        "topic": "Workshop on Control Flow w/ ES2015 and beyond."
+        "topic": "Workshop on Control Flow w/ ES2015 and beyond.",
+        "slide": "http://www.jongleberry.com/async-control-flow/",
+        "youtube": ""
       }]
     }, {
       "time": "14:10",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "休息"
+        "topic": "休息",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "14:30",
       "agendas": [{
         "speaker": "Mark Su",
         "image": "../images/MarkSu.jpg",
-        "topic": "Building Hybrid Mobile Apps with Ionic Framework and AngularJS"
+        "topic": "Building Hybrid Mobile Apps with Ionic Framework and AngularJS",
+        "slide": "",
+        "youtube": ""
       }, {
         "speaker": "Fred Chien",
         "image": "../images/FredChien.jpg",
-        "topic": "Brig - QML 與 Node.js 的華麗大冒險"
+        "topic": "Brig - QML 與 Node.js 的華麗大冒險",
+        "slide": "http://www.slideshare.net/cfsghost/brig-nodejs-qml",
+        "youtube": ""
       }]
     }, {
       "time": "15:10",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "下午茶"
+        "topic": "下午茶",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "15:30",
       "agendas": [{
         "speaker": "Xp Steven",
         "image": "../images/XpSteven.jpg",
-        "topic": "React Test and Material Design Lite + React？"
+        "topic": "React Test and Material Design Lite + React？",
+        "slide": "https://docs.google.com/presentation/d/1Xk-CfkdF2cnwZpb2o9SvlySG3iwaI5b4rWEIskOqO1Y/pub",
+        "youtube": ""
       }, {
         "speaker": "WM",
         "image": "../images/WM.jpeg",
-        "topic": "使用 Electron 跨平台建構 JavaScript 桌面程式"
+        "topic": "使用 Electron 跨平台建構 JavaScript 桌面程式",
+        "slide": "https://speakerdeck.com/kidwm/build-cross-platform-desktop-application-with-electron",
+        "youtube": ""
       }]
     }, {
       "time": "16:10",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "休息"
+        "topic": "休息",
+        "slide": "",
+        "youtube": ""
       }]
     }, {
       "time": "16:30",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "閃電秀"
+        "topic": "閃電秀",
+        "slide": "http://www.slideshare.net/tysh310246/async-53508623",
+        "youtube": ""
       }]
     }, {
       "time": "17:10",
       "agendas": [{
         "speaker": "",
         "image": "",
-        "topic": "收工啦!"
+        "topic": "收工啦!",
+        "slide": "",
+        "youtube": ""
       }]
     }]
   }

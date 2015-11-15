@@ -19,7 +19,7 @@
               - single = true
             else
               - single = false
-            
+
             li(class="room-" + index + " " + (single ? 'single' : ''))
               if agenda.image
                 .avatar
@@ -28,6 +28,13 @@
                 .info
                   .topic= agenda.topic
                   .name= agenda.speaker ? 'by ' + agenda.speaker : ""
+                    br
+                    if agenda.slide
+                      a(href=agenda.slide, target="_blank") Slide
+                      if agenda.youtube
+                        &nbsp;/&nbsp;
+                    if agenda.youtube
+                      a(href="https://youtu.be/"+agenda.youtube, target="_blank") YouTube
                   if !single && (index === 0)
                     .room-name 國際會議廳
                   else if !single && (index === 1)
@@ -53,7 +60,7 @@
               - single = true
             else
               - single = false
-            
+
             li(class="room-" + index + " " + (single ? 'single' : ''))
               if agenda.image
                 .avatar
@@ -62,6 +69,13 @@
                 .info
                   .topic= agenda.topic
                   .name= agenda.speaker ? 'by ' + agenda.speaker : ""
+                    br
+                    if agenda.slide
+                      a(href=agenda.slide, target="_blank") Slide
+                      if agenda.youtube
+                        &nbsp;/&nbsp;
+                    if agenda.youtube
+                      a(href="https://youtu.be/"+agenda.youtube, target="_blank") YouTube
                   if !single && (index === 0)
                     .room-name 國際會議廳
                   else if !single && (index === 1)
