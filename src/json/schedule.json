@@ -115,13 +115,13 @@
         "image": "../images/othree.jpg",
         "topic": "Transducer",
         "slide": "https://speakerdeck.com/othree/transducer",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=21rlFnleDpU"
       }, {
         "speaker": "Sean Lee",
         "image": "../images/SeanLee.jpg",
         "topic": "unidisk - Architecture of Web Storage filesystem",
         "slide": "//goo.gl/TdDuiZ",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=9EUDiu2nVsE"
       }]
     }, {
       "time": "15:10",
@@ -139,13 +139,13 @@
         "image": "../images/謝宗穎.jpeg",
         "topic": "Philosophy of TDD",
         "slide": "http://www.slideshare.net/smlsun/jsdc-2015-tdd-nodejs",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=85bqne87ru8"
       }, {
         "speaker": "王唯達",
         "image": "../images/王唯達.jpg",
         "topic": "jQuery.component, A Javascript MVC",
         "slide": "http://jqcomp.org/reveal.js/jsdc.html#/",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=tU3icRWoiV0"
       }]
     }, {
       "time": "16:10",
@@ -163,13 +163,13 @@
         "image": "../images/PaulLi.png",
         "topic": "Web Components & the next generation ADs",
         "slide": "http://mei.homin.com.tw/Keynote_web_components_and_the_next_generation_ads.html",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=HgoXPFLjpis"
       }, {
         "speaker": "Evan Tseng",
         "image": "../images/EvanTseng.jpeg",
         "topic": "Web of Things Maker - Build WoT/IoT Applications with JavaScript",
         "slide": "",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=5uhZXKtAWnU"
       }]
     }, {
       "time": "17:10",
@@ -188,7 +188,7 @@
         "image": "../images/JoshKoo.jpeg",
         "topic": "Tooling with Three.js",
         "slide": "",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=12o1DF3KmGY"
       }]
     }, {
       "time": "09:40",
@@ -206,7 +206,7 @@
         "image": "../images/MartyHsu.jpg",
         "topic": "Build Anything with JavaScript",
         "slide": "",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=m4lPP5CFFxw"
       }]
     }, {
       "time": "10:40",
@@ -224,13 +224,13 @@
         "image": "../images/SamLee.jpg",
         "topic": "React Native in Action!  Into existing iOS App",
         "slide": "https://www.dropbox.com/s/6393ic7yipnerrb/JSDC_2015_React_Native.pdf?dl=0",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=b7AEK-5HeEo"
       }, {
         "speaker": "pH200",
         "image": "https://avatars1.githubusercontent.com/u/1430310?v=3&s=460",
         "topic": "Exploring Functional UIs with Cycle",
         "slide": "",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=rGUDqoHzxfI"
       }]
     }, {
       "time": "11:40",
@@ -248,7 +248,7 @@
         "image": "../images/Janathon.jpeg",
         "topic": "Workshop on Control Flow w/ ES2015 and beyond.",
         "slide": "http://www.jongleberry.com/async-control-flow/",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=bSKfa7t0yGE"
       }]
     }, {
       "time": "14:10",
@@ -266,13 +266,13 @@
         "image": "../images/MarkSu.jpg",
         "topic": "Building Hybrid Mobile Apps with Ionic Framework and AngularJS",
         "slide": "",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=-Y_aIDSNWm8"
       }, {
         "speaker": "Fred Chien",
         "image": "../images/FredChien.jpg",
         "topic": "Brig - Grand advanture of QML and Node.js",
         "slide": "http://www.slideshare.net/cfsghost/brig-nodejs-qml",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=iB_95yxLviY"
       }]
     }, {
       "time": "15:10",
@@ -290,13 +290,13 @@
         "image": "../images/XpSteven.jpg",
         "topic": "React Test and Material Design Lite + React？",
         "slide": "https://docs.google.com/presentation/d/1Xk-CfkdF2cnwZpb2o9SvlySG3iwaI5b4rWEIskOqO1Y/pub",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=gyzP5cbr8gA"
       }, {
         "speaker": "WM",
         "image": "../images/WM.jpeg",
         "topic": "Build Cross Platform Desktop Application with Electron",
         "slide": "https://speakerdeck.com/kidwm/build-cross-platform-desktop-application-with-electron",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=HLwm3fH7Di8"
       }]
     }, {
       "time": "16:10",
@@ -314,7 +314,7 @@
         "image": "",
         "topic": "Lighting Talk",
         "slide": "http://www.slideshare.net/tysh310246/async-53508623",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=CDVRZDdVUvU"
       }]
     }, {
       "time": "17:10",
@@ -443,13 +443,13 @@
         "image": "../images/othree.jpg",
         "topic": "Transducer",
         "slide": "https://speakerdeck.com/othree/transducer",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=21rlFnleDpU"
       }, {
         "speaker": "Sean Lee",
         "image": "../images/SeanLee.jpg",
         "topic": "unidisk - Architecture of Web Storage filesystem",
         "slide": "//goo.gl/TdDuiZ",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=9EUDiu2nVsE"
       }]
     }, {
       "time": "15:10",
@@ -467,13 +467,13 @@
         "image": "../images/謝宗穎.jpeg",
         "topic": "TDD 的開發哲學，以 nodejs 為例",
         "slide": "http://www.slideshare.net/smlsun/jsdc-2015-tdd-nodejs",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=85bqne87ru8"
       }, {
         "speaker": "王唯達",
         "image": "../images/王唯達.jpg",
         "topic": "jQuery.component,一個javascript MVC",
         "slide": "http://jqcomp.org/reveal.js/jsdc.html#/",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=tU3icRWoiV0"
       }]
     }, {
       "time": "16:10",
@@ -491,13 +491,13 @@
         "image": "../images/PaulLi.png",
         "topic": "Web Components & the next generation ADs",
         "slide": "http://mei.homin.com.tw/Keynote_web_components_and_the_next_generation_ads.html",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=HgoXPFLjpis"
       }, {
         "speaker": "Evan Tseng",
         "image": "../images/EvanTseng.jpeg",
         "topic": "Web of Things Maker - Build WoT/IoT Applications with JavaScript",
         "slide": "",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=5uhZXKtAWnU"
       }]
     }, {
       "time": "17:10",
@@ -516,7 +516,7 @@
         "image": "../images/JoshKoo.jpeg",
         "topic": "Tooling with Three.js",
         "slide": "",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=12o1DF3KmGY"
       }]
     }, {
       "time": "09:40",
@@ -534,7 +534,7 @@
         "image": "../images/MartyHsu.jpg",
         "topic": "Build Anything with JavaScript",
         "slide": "",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=m4lPP5CFFxw"
       }]
     }, {
       "time": "10:40",
@@ -552,13 +552,13 @@
         "image": "../images/SamLee.jpg",
         "topic": "React Native 實戰!  融入現有 iOS App",
         "slide": "https://www.dropbox.com/s/6393ic7yipnerrb/JSDC_2015_React_Native.pdf?dl=0",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=b7AEK-5HeEo"
       }, {
         "speaker": "pH200",
         "image": "https://avatars1.githubusercontent.com/u/1430310?v=3&s=460",
         "topic": "Exploring Functional UIs with Cycle",
         "slide": "",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=rGUDqoHzxfI"
       }]
     }, {
       "time": "11:40",
@@ -576,7 +576,7 @@
         "image": "../images/Janathon.jpeg",
         "topic": "Workshop on Control Flow w/ ES2015 and beyond.",
         "slide": "http://www.jongleberry.com/async-control-flow/",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=bSKfa7t0yGE"
       }]
     }, {
       "time": "14:10",
@@ -594,13 +594,13 @@
         "image": "../images/MarkSu.jpg",
         "topic": "Building Hybrid Mobile Apps with Ionic Framework and AngularJS",
         "slide": "",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=-Y_aIDSNWm8"
       }, {
         "speaker": "Fred Chien",
         "image": "../images/FredChien.jpg",
         "topic": "Brig - QML 與 Node.js 的華麗大冒險",
         "slide": "http://www.slideshare.net/cfsghost/brig-nodejs-qml",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=iB_95yxLviY"
       }]
     }, {
       "time": "15:10",
@@ -618,13 +618,13 @@
         "image": "../images/XpSteven.jpg",
         "topic": "React Test and Material Design Lite + React？",
         "slide": "https://docs.google.com/presentation/d/1Xk-CfkdF2cnwZpb2o9SvlySG3iwaI5b4rWEIskOqO1Y/pub",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=gyzP5cbr8gA"
       }, {
         "speaker": "WM",
         "image": "../images/WM.jpeg",
         "topic": "使用 Electron 跨平台建構 JavaScript 桌面程式",
         "slide": "https://speakerdeck.com/kidwm/build-cross-platform-desktop-application-with-electron",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=HLwm3fH7Di8"
       }]
     }, {
       "time": "16:10",
@@ -642,7 +642,7 @@
         "image": "",
         "topic": "閃電秀",
         "slide": "http://www.slideshare.net/tysh310246/async-53508623",
-        "youtube": ""
+        "youtube": "https://www.youtube.com/watch?v=CDVRZDdVUvU"
       }]
     }, {
       "time": "17:10",
